@@ -6,6 +6,7 @@ const faker = require('faker');
 
 let logger = new (winston.Logger)({
   transports: [
+    new (winston.transports.Console)(),
     new (winston.transports.File)({ filename: 'log.json' }),
   ],
 });
@@ -17,8 +18,8 @@ const app = net.createServer();
 let clients = [];
 
 
-let parseCommand = (message,socket) =>{
-  if(message.startsWith('@')){
+let parseCommand = (message,socket) => {
+  if(message.startsWith('@')) {
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
 
