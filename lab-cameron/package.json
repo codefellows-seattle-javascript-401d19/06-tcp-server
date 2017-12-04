@@ -1,0 +1,40 @@
+{
+  "name": "lab-cameron",
+  "version": "1.0.0",
+  "description": "TCP chat server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest -i --coverage || exit 0",
+    "lint": "eslint */.js */**.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CameronMoorehead/06-tcp-server.git"
+  },
+  "keywords": [
+    "tcp",
+    "chat",
+    "server",
+    "node",
+    "codefellows",
+    "401"
+  ],
+  "author": "Cameron Moorehead",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CameronMoorehead/06-tcp-server/issues"
+  },
+  "homepage": "https://github.com/CameronMoorehead/06-tcp-server#readme"
+}
