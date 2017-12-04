@@ -1,22 +1,26 @@
-import { request } from 'https';
-
 'use strict';
 
+// ------------------------------------------------------
 // const events = require('events');
 
 // let myEventEmitter = new events.EventEmitter();
 
-// myEventEmitter.on('myEvent', () => {
-//     console.log('I ma reacting to an even on Line 8');
+// myEventEmitter.on('the hound',() => {
+//   console.log('I am reacting to an event on line 8');
 // });
 
-// myEventEmitter.on('myEvent', () => {
-//     console.log('I am reacting to an event on Line 12');
+// myEventEmitter.on('myEventeeeeeee',() => {
+//   console.log('I am reacting to an event on line 12');
 // });
 
-// myEventEmitter.emit('random text'); // emit is a node function
+// myEventEmitter.on('myEvent',() => {
+//   console.log('I am reacting to an event on line 16');
+// });
 
-const server = require('.lib/server');
+// myEventEmitter.emit('myEvent');
+// ------------------------------------------------------
+
+const server = require('./lib/server');
 const PORT = 3000;
 
-server.start(PORT, () => {}); //no magic numbers like port number!
+server.start(PORT,() => {});
