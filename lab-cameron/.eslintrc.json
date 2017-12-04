@@ -31,7 +31,9 @@
     ],
     "space-infix-ops": [
       "error",
-      "always-multiline"
+      {
+        "int32Hint": false
+      }
     ],
     "comma-dangle": [
       "error",

@@ -1,0 +1,14 @@
+{"level":"info","message":"Hello world!","timestamp":"2017-12-04T23:33:58.268Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-04T23:33:58.269Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-04T23:34:04.779Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-04T23:34:04.780Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-04T23:34:43.757Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-04T23:34:43.758Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-04T23:35:09.556Z"}
+{"level":"info","message":"Processing data: sup\r\n","timestamp":"2017-12-04T23:35:35.151Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-04T23:35:41.990Z"}
+{"level":"info","message":"Processing data: test\r\n","timestamp":"2017-12-04T23:35:45.565Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-04T23:35:49.410Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-04T23:35:49.554Z"}
+{"level":"info","message":"Removing Etha48","timestamp":"2017-12-04T23:36:00.258Z"}
+{"level":"info","message":"Removing Bernadine.Bogisich28","timestamp":"2017-12-04T23:36:08.319Z"}
