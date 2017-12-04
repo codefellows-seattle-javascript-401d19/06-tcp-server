@@ -1,0 +1,23 @@
+{
+  "name": "lab-david",
+  "version": "1.0.0",
+  "description": "# modules - append: appends another node onto the last linked list item - find: finds a linked list - remove: removes a node",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  }
+}
