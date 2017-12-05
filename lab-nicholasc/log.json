@@ -48,3 +48,104 @@
 {"level":"info","message":"server is up","timestamp":"2017-12-04T20:39:10.214Z"}
 {"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-04T20:39:16.275Z"}
 {"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-04T20:39:42.812Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:55.569Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:55.804Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:08:55.805Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:55.905Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:56.137Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:08:56.137Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:56.227Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:56.459Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:08:56.460Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:56.552Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:56.784Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:08:56.784Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:56.876Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:08:57.107Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:08:57.108Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:09:12.308Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:09:41.011Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:09:40.782Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:09:41.012Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:10:24.168Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:10:24.400Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:10:24.401Z"}
+{"level":"info","message":"Processing data :hi\r\n","timestamp":"2017-12-05T06:11:02.363Z"}
+{"level":"info","message":"Processing data :hello to you too\r\n","timestamp":"2017-12-05T06:11:09.310Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:17:36.864Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:17:37.095Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:17:37.096Z"}
+{"level":"info","message":"Processing data :@\r\n","timestamp":"2017-12-05T06:17:46.525Z"}
+{"level":"info","message":"Processing data :\r\n","timestamp":"2017-12-05T06:17:48.066Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:17:50.176Z"}
+{"level":"info","message":"Processing data :\u001b[A\r\n","timestamp":"2017-12-05T06:18:09.382Z"}
+{"level":"info","message":"Processing data :����\u0006","timestamp":"2017-12-05T06:18:10.252Z"}
+{"level":"info","message":"Processing data :\r\n","timestamp":"2017-12-05T06:18:13.664Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:18:15.891Z"}
+{"level":"info","message":"Processing data :\r\n","timestamp":"2017-12-05T06:18:21.917Z"}
+{"level":"info","message":"Processing data :\r\n","timestamp":"2017-12-05T06:18:22.321Z"}
+{"level":"info","message":"Processing data :\r\n","timestamp":"2017-12-05T06:18:22.778Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:18:24.603Z"}
+{"level":"info","message":"Processing data :����\u0006","timestamp":"2017-12-05T06:18:29.945Z"}
+{"level":"info","message":"Removing Meagan_Spinka","timestamp":"2017-12-05T06:18:47.062Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:18:53.361Z"}
+{"level":"info","message":"Processing data :����\u0006","timestamp":"2017-12-05T06:19:54.628Z"}
+{"level":"info","message":"Processing data :����\u0006","timestamp":"2017-12-05T06:20:00.323Z"}
+{"level":"info","message":"Removing Arnold.Kuhn","timestamp":"2017-12-05T06:20:07.032Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:20:17.121Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:20:22.905Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:20:26.231Z"}
+{"level":"info","message":"Removing Karelle62","timestamp":"2017-12-05T06:22:09.584Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:22:14.226Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:22:16.189Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:22:19.087Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:22:54.039Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:23:05.632Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:23:13.365Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:23:13.595Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:23:13.596Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:23:19.628Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:23:24.898Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:23:29.940Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:23:35.413Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:23:40.727Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:23:43.589Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:23:50.283Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:23:52.009Z"}
+{"level":"info","message":"Processing data :����\u0006","timestamp":"2017-12-05T06:23:57.183Z"}
+{"level":"info","message":"Removing Linwood38","timestamp":"2017-12-05T06:24:00.118Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:24:08.649Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:24:11.515Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:24:28.531Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:24:32.603Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:24:37.319Z"}
+{"level":"info","message":"Removing Kari.Gerhold63","timestamp":"2017-12-05T06:25:11.291Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:25:16.650Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:25:18.663Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:25:21.948Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:25:34.194Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:25:43.703Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:25:43.936Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:25:43.936Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:25:49.871Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:25:51.786Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:25:55.567Z"}
+{"level":"info","message":"Processing data :����\u0006","timestamp":"2017-12-05T06:25:57.877Z"}
+{"level":"info","message":"Removing Kellie.Prohaska","timestamp":"2017-12-05T06:26:03.456Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:26:10.112Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-05T06:26:12.375Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:26:15.818Z"}
+{"level":"info","message":"Processing data :����\u0006","timestamp":"2017-12-05T06:27:34.524Z"}
+{"level":"info","message":"Removing Lelah_Sawayn41","timestamp":"2017-12-05T06:27:40.372Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:31:17.518Z"}
+{"level":"info","message":"Processing data :@nickname\r\n","timestamp":"2017-12-05T06:31:28.986Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:31:46.646Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:31:46.877Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:31:46.877Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:31:53.317Z"}
+{"level":"info","message":"Processing data :@nickname sexyman\r\n","timestamp":"2017-12-05T06:31:58.358Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:32:00.686Z"}
+{"level":"info","message":"Processing data :@list\r\n","timestamp":"2017-12-05T06:36:22.454Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:36:26.792Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-05T06:36:27.025Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-05T06:36:27.026Z"}

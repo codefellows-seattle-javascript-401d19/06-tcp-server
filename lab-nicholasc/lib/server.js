@@ -22,12 +22,37 @@ let parseCommand = (message, socket) => {
   if(message.startsWith('@')){
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
+    let inputWord = parsedCommand[1];
+    let inputMessage = parsedCommand.slice(2, parsedCommand.length -1);
 
     switch(commandWord){
     case'@list': //like if(commandword === '@list'){}
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
+    case'@quit': //doesnt close telnet
+      clients = clients.filter((client) => {
+        return client !== socket;
+      });
+      socket.write('see ya later alligator\n');
+      break;
+    case'@nickname':
+      clients.map(client => {
+        if(client === socket){
+          client.name = inputWord;
+        }
+        socket.write(`your nickname is now ${inputWord}`);
+      } );
+      break;
+    case'@dm': //like if(commandword === '@list'){}
+      for( let client of clients){
+        if(client.name === inputWord){
+          client.write(`${socket.name}: ${inputMessage}\n`);
+        }
+      }
+      break;
     default:
+      socket.write(socket);
+
       socket.write('valid commands: @list');//add the other commands
     }
   }
