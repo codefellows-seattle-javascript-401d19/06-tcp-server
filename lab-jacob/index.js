@@ -3,4 +3,4 @@
 const server = require('./lib/server');
 const PORT = 3000; 
 
-server.start(PORT,()=>{});
+server.start(PORT,console.log('Server Up'));
