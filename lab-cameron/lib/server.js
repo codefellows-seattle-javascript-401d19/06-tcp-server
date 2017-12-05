@@ -1,46 +1,36 @@
 'use strict';
 
+const server = module.exports = {};
+
+server.updateClients = updatedClients => {
+  clients = updatedClients;
+};
+
+server.start = (port, callback) => {
+  logger.log('info',`Server is up on port ${port}`);
+  console.log('info',`Server is up on port ${port}`);
+  return app.listen(port, callback);
+};
+
+server.stop = callback => {
+  logger.log('info',`Server is off`);
+  return app.close(callback);
+};
+
 const net = require('net');
 const faker = require('faker');
 
 const {
   logger,
   removeClient,
+  parseCommand,
   broadcast,
-  quitChatroom,
-  changeNickname,
 } = require('./server-helpers');
 
 logger.log('info', 'Hello world!');
 
 const app = net.createServer();
 let clients = [];
-
-const parseCommand = (socket, message) => {
-  if (message.input.startsWith('@')) {
-    const parsedCommand = message.input.split(' ');
-    const commandWord = parsedCommand[0];
-    const nickname = parsedCommand[1];
-
-    switch (commandWord) {
-    case '@list':
-      socket.write(clients.map(client => client.name).join('\n') + '\n');
-      break;
-    case '@quit':
-      quitChatroom(socket, clients);
-      break;
-    case '@nickname':
-      changeNickname(socket, clients, nickname);
-      break;
-    default:
-      socket.write('Valid commands: @list\n');
-      break;
-    }
-    return true;
-  }
-  return false;
-};
-
 
 app.on('connection', socket => {
   socket.name = faker.internet.userName();
@@ -65,7 +55,7 @@ app.on('connection', socket => {
       input: data.toString().trim(),
     };
 
-    if (parseCommand(socket, message)) {
+    if (parseCommand(socket, message, clients)) {
       return;
     }
 
@@ -76,16 +66,3 @@ app.on('connection', socket => {
   socket.on('error', removeClient(socket, clients));
   socket.on('close', removeClient(socket, clients));
 });
-
-const server = module.exports = {};
-
-server.start = (port, callback) => {
-  logger.log('info',`Server is up on port ${port}`);
-  console.log('info',`Server is up on port ${port}`);
-  return app.listen(port, callback);
-};
-
-server.stop = callback => {
-  logger.log('info',`Server is off`);
-  return app.close(callback);
-};

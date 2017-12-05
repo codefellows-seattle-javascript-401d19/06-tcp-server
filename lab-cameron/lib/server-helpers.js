@@ -2,18 +2,48 @@
 
 const winston = require('winston');
 
+const server = require('./server');
+
 const logger = new (winston.Logger)({
   transports: [
     new (winston.transports.File)({ filename: 'log.json'}),
   ],
 });
 
+const parseCommand = (socket, message, clients) => {
+  if (message.input.startsWith('@')) {
+    const parsedCommand = message.input.split(' ');
+    const commandWord = parsedCommand[0];
+    const nickname = parsedCommand[1];
+
+    switch (commandWord) {
+    case '@list':
+      socket.write(clients.map(client => client.name).join('\n') + '\n');
+      break;
+    case '@quit':
+      quitChatroom(socket, clients);
+      break;
+    case '@nickname':
+      changeNickname(socket, clients, nickname);
+      break;
+    default:
+      socket.write('Valid commands: @list\n');
+      break;
+    }
+    return true;
+  }
+  return false;
+};
+
 const removeClient = (socket, clients) => () => {
+  console.log('AAA');
   logger.log('info',`Removing ${socket.name}`);
 
   clients = clients.filter(client => {
     return client !== socket;
   });
+
+  server.updateClients(clients);
 };
 
 const quitChatroom = (socket, clients) => {
@@ -74,9 +104,8 @@ const changeNickname = (socket, clients, nickname) => {
 };
 
 module.exports = {
-  removeClient,
-  quitChatroom,
-  broadcast,
   logger,
-  changeNickname,
+  removeClient,
+  parseCommand,
+  broadcast,
 };
