@@ -53,7 +53,7 @@ let parseCommand = (message, socket) => {
     default:
       socket.write(socket);
 
-      socket.write('valid commands: @list');//add the other commands
+      socket.write('valid commands: @list, @dm, @nickname, @quit');
     }
   }
 };
