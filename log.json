@@ -164,3 +164,56 @@
 {"level":"info","message":"New socket.","timestamp":"2017-12-05T01:00:26.251Z"}
 {"level":"info","message":"Processing data: @dm Roma17 heyyyy\r\n","timestamp":"2017-12-05T01:00:33.565Z"}
 {"level":"info","message":"Processing data: @dm Darrin.Schoen yoooo\r\n","timestamp":"2017-12-05T01:00:49.257Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T01:02:59.416Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:03:02.574Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:03:05.194Z"}
+{"level":"info","message":"Processing data: @dm Okey58 yoooo\r\n","timestamp":"2017-12-05T01:03:12.158Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T01:04:01.148Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:04:03.473Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:04:05.348Z"}
+{"level":"info","message":"Processing data: @nickname P\r\n","timestamp":"2017-12-05T01:04:10.877Z"}
+{"level":"info","message":"Processing data: @dm P yooooo\r\n","timestamp":"2017-12-05T01:04:16.121Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T01:05:02.653Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:05:04.474Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:05:06.993Z"}
+{"level":"info","message":"Processing data: @nickname Emilia\r\n","timestamp":"2017-12-05T01:05:12.895Z"}
+{"level":"info","message":"Processing data: @dm Emilia yooooo\r\n","timestamp":"2017-12-05T01:05:20.078Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T01:07:09.218Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:07:12.475Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T01:07:14.637Z"}
+{"level":"info","message":"Processing data: @nickname Cait\r\n","timestamp":"2017-12-05T01:07:21.288Z"}
+{"level":"info","message":"Processing data: @dm Cait heyyyy yo\r\n","timestamp":"2017-12-05T01:07:27.934Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T02:24:50.875Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T02:24:58.013Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T02:25:01.689Z"}
+{"level":"info","message":"Processing data: @dm Aylin7 yooo\r\n","timestamp":"2017-12-05T02:25:12.371Z"}
+{"level":"info","message":"Processing data: @dm Aylin7 yooo\r\n","timestamp":"2017-12-05T02:26:17.086Z"}
+{"level":"info","message":"Processing data: @dm Aylin7 yooo\r\n","timestamp":"2017-12-05T02:27:43.929Z"}
+{"level":"info","message":"Processing data: @dm Aylin8 yooo\r\n","timestamp":"2017-12-05T02:29:33.792Z"}
+{"level":"info","message":"Processing data: @dm Garry.OConnell yoooo\r\n","timestamp":"2017-12-05T02:30:13.000Z"}
+{"level":"info","message":"Processing data: @dm Aylin7 yooo\r\n","timestamp":"2017-12-05T02:46:31.079Z"}
+{"level":"info","message":"Processing data: @md\r\n","timestamp":"2017-12-05T02:46:45.613Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T02:46:47.756Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:47:05.288Z"}
+{"level":"info","message":"Processing data: @dm Aylin7 yoooo\r\n","timestamp":"2017-12-05T02:47:41.569Z"}
+{"level":"info","message":"Processing data: @dm Aylin7 yoooo\r\n","timestamp":"2017-12-05T03:05:45.204Z"}
+{"level":"info","message":"Processing data: @nickname A\r\n","timestamp":"2017-12-05T03:07:57.218Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T03:08:38.210Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T03:08:41.977Z"}
+{"level":"info","message":"Processing data: @nickname Kate\r\n","timestamp":"2017-12-05T03:08:51.102Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:08:53.460Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T03:09:12.415Z"}
+{"level":"info","message":"Processing data: @nickname Fabulous Faboo\r\n","timestamp":"2017-12-05T03:09:21.500Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:09:27.789Z"}
+{"level":"info","message":"Removing Fabulous","timestamp":"2017-12-05T03:13:51.742Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T03:13:56.688Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T03:13:58.927Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T03:14:02.691Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T03:14:07.437Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:14:10.199Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:14:16.308Z"}
+{"level":"info","message":"Removing Luciano0","timestamp":"2017-12-05T03:16:43.887Z"}
+{"level":"info","message":"New socket.","timestamp":"2017-12-05T03:16:50.119Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T03:17:32.251Z"}
+{"level":"info","message":"New socket at d5d4affa-f44f-464f-9fe5-5cdc47ba5a72","timestamp":"2017-12-05T03:17:39.973Z"}
+{"level":"info","message":"New socket at 89a3bf1e-2bd7-4ec0-b424-0da0259f1a29","timestamp":"2017-12-05T03:17:42.230Z"}
