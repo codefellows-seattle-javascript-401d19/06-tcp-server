@@ -1,0 +1,20 @@
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:16:48.105Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:16:48.106Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:25:22.749Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:25:22.751Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:25:24.615Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:25:26.785Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:25:29.217Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T01:25:41.763Z"}
+{"level":"info","message":"Processing data: @dm covfefe hey I saw you were on the chat room!\r\n","timestamp":"2017-12-05T01:26:01.809Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T01:26:23.086Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T01:26:48.695Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T01:28:50.080Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T01:28:50.766Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:29:45.192Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:29:45.194Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:29:48.351Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:30:12.222Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:30:15.050Z"}
+{"level":"info","message":"Processing data: @dm snoopy Hey snoopy who is this this is a new phone\r\n","timestamp":"2017-12-05T01:30:42.693Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T02:04:29.552Z"}
