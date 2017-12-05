@@ -1,0 +1,17 @@
+{
+  "name": "lab-jacob",
+  "version": "1.0.0",
+  "description": "* Day 3   The file reader will take in an array of text files and read them  in async manner then output them in order given as if read each  file in sync",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1"
+  }
+}
