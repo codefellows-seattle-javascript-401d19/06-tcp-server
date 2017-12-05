@@ -67,7 +67,7 @@ let parseCommand = (message, socket) => {
       break;
 
       default:
-        socket.write('valid commands: @list | @quit | @nickname\n');
+        socket.write('valid commands: @list | @dm | @nickname |  @quit \n');
       break;
     }
     return true;
@@ -131,7 +131,6 @@ server.start = (port, callback) => {
 };
 
 server.stop = (callback) => {
-  logger.log('info', `Server is up off`);
+  logger.log('info', `Server is stopping`);
   return app.close(callback);
-
 };
