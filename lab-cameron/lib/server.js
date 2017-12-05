@@ -4,7 +4,7 @@ const net = require('net');
 const winston = require('winston');
 const faker = require('faker');
 
-let logger = new (winston.Logger)({
+const logger = new (winston.Logger)({
   transports: [
     new (winston.transports.File)({ filename: 'log.json'}),
   ],
@@ -15,14 +15,17 @@ logger.log('info', 'Hello world!');
 const app = net.createServer();
 let clients = [];
 
-let parseCommand = (message,socket) =>{
-  if(message.startsWith('@')){
-    let parsedCommand = message.split(' ');
-    let commandWord = parsedCommand[0];
+const parseCommand = (userInput, socket) => {
+  if (userInput.startsWith('@')) {
+    const parsedCommand = userInput.split(' ');
+    const commandWord = parsedCommand[0];
 
-    switch(commandWord){
-    case'@list':// vinicio - if(commandWord === '@list')
+    switch (commandWord) {
+    case '@list':
       socket.write(clients.map(client => client.name).join('\n') + '\n');
+      break;
+    case '@quit':
+      quitChatroom(socket);
       break;
     default:
       socket.write('Valid commands: @list\n');
@@ -33,34 +36,56 @@ let parseCommand = (message,socket) =>{
   return false;
 };
 
-app.on('connection', (socket) => {
+const removeClient = socket => () => {
+  clients = clients.filter(client => {
+    return client !== socket;
+  });
+  logger.log('info',`Removing ${socket.name}`);
+};
+
+const quitChatroom = socket => {
+  socket.write('You have left the chatroom');
+  socket.end();
+  
+  const userInput = {
+    type: 'exit',
+    input: `${socket.name} has left the chatroom`,
+  };
+
+  broadcast(socket, userInput);
+  logger.log('info', `${socket.name} has left the chatroom`);
+};
+
+const broadcast = (socket, message) => {
+  for (let client of clients) {
+    if (client !== socket) {
+      client.write(`${socket.name}: ${message}\n`);
+    }
+  }
+};
+
+app.on('connection', socket => {
   socket.name = faker.internet.userName();
   clients.push(socket);
-  logger.log('info', `Net socket`);// [object object]
+  logger.log('info', 'Net socket');
   socket.write('Welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${socket.name}\n`);
 
-
-  socket.on('data',(data) => {
+  socket.on('data', data => {
     logger.log('info', `Processing data: ${data}`);
-    let message = data.toString().trim();
+    const userInput = {
+      type: 'message',
+      input: data.toString().trim(),
+    };
 
-    if(parseCommand(message,socket))
+    if (parseCommand(userInput, socket)) {
       return;
-
-    for(let client of clients){
-      //vinicio - instead of doing clients[client] I can use directly client
-      if(client !== socket)
-        client.write(`${socket.name}: ${message}\n`);
     }
+
+    broadcast(socket, userInput);
   });
 
-  let removeClient = (socket) => () => {
-    clients = clients.filter((client) => {
-      return client !== socket;
-    });
-    logger.log('info',`Removing ${socket.name}`);
-  };
+
   socket.on('error', removeClient(socket));
   socket.on('close', removeClient(socket));
 });
@@ -70,10 +95,10 @@ const server = module.exports = {};
 server.start = (port, callback) => {
   logger.log('info',`Server is up on port ${port}`);
   console.log('info',`Server is up on port ${port}`);
-  return app.listen(port,callback);
+  return app.listen(port, callback);
 };
 
-server.stop = (callback) => {
+server.stop = callback => {
   logger.log('info',`Server is off`);
   return app.close(callback);
 };
