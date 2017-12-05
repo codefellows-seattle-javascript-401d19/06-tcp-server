@@ -13,35 +13,61 @@ let logger = new (winston.Logger)({
 
 logger.log('info','Hello world!');
 
+class Client {
+  constructor(socket) {
+    this.id = faker.random.uuid();
+    this.name = faker.internet.userName();
+    this.socket = socket;
+    clients.push(this);
+  }
+}
 
 const app = net.createServer();
 let clients = [];
 
 
 let parseCommand = (message,socket) => {
+  let name;
+  clients.forEach(client => {
+    if(client.socket === socket) {
+      name = client.name;
+    }
+  });
+  console.log(socket);
   if(message.startsWith('@')) {
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
+    let clientnames = clients.map(client => {
+      return client.name;
+    });
 
     switch(commandWord){
     case '@list':
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
     case '@quit':
-      socket.end(`See you next time ${socket.name}!\n`);
+      socket.end(`See you next time ${name}!\n`);
       break;
     case '@name':
       clients.forEach(client => {
-        if(client.name === socket.name) {
-          client.name = socket.name = parsedCommand[1];
+        if(client.socket === socket) {
+          client.name = parsedCommand[1];
         }
       });
       break;
     case '@dm':
+      if(!(clientnames.includes(parsedCommand[1]))) {
+        for(let client of clients) {
+          if(client === socket) {
+            client.write(`${parsedCommand[1]} is not a valid user.\n`);
+          }
+        }
+        break;
+      }
       clients.forEach(client => {
         if(client.name === parsedCommand[1]) {
-          let directMessage = parsedCommand[2];
-          client.write(`${socket.name}: Direct Message: ${directMessage}\n`);
+          let directMessage = parsedCommand.slice(2).join(' ');
+          client.write(`DM from ${name}: ${directMessage}\n`);
         }
       });
       break;
@@ -55,8 +81,9 @@ let parseCommand = (message,socket) => {
 };
 
 app.on('connection', (socket) => {
-  socket.name = faker.internet.userName();
-  clients.push(socket);
+  new Client(socket);
+  // socket.name = faker.internet.userName();
+  // clients.push(socket);
   logger.log('info', `Net socket`);
   socket.write('Welcome to 401d19 chatroom\n'); 
   socket.write(`Your name is ${socket.name}\n`);
@@ -70,14 +97,14 @@ app.on('connection', (socket) => {
       return;
 
     for(let client of clients){
-      if(client !== socket)
-        client.write(`${socket.name}: ${message}\n`);
+      if(client.socket !== socket)
+        client.socket.write(`${client.name}: ${message}\n`);
     }
   });
 
   let removeClient = (socket) => () => {
     clients = clients.filter((client) => {
-      return client !== socket;
+      return client.socket !== socket;
     }); 
     logger.log('info',`Removing ${socket.name}`);
   };
