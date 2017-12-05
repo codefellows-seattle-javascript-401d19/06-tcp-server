@@ -26,6 +26,11 @@ const app = net.createServer();
 let clients = [];
 
 let parseCommand = (message, socket) => {
+  let name;
+  clients.forEach(client => {
+    if (client.socket === socket)
+      name = client.name;
+  });
   if(message.startsWith('@')){
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
@@ -42,15 +47,15 @@ let parseCommand = (message, socket) => {
       break;
     case '@name':
       clients.forEach(client => {
-        if (client.name === socket.name){
-          client.name = socket.name = parsedCommand[1];
+        if (client.socket === socket){
+          client.name = parsedCommand[1];
         }
       });
       break;
     case '@dm':
       if (!(clientNames.includes(parsedCommand[1]))){
         for(let client of clients){
-          if(client === socket){
+          if(client.socket === socket){
             client.write(`${parsedCommand[1]} is not a valid user.\n`);
           }
         }
@@ -59,7 +64,7 @@ let parseCommand = (message, socket) => {
       clients.forEach(client => {
         if (client.name === parsedCommand[1]){
           let dm = parsedCommand.slice(2).join(' ');
-          client.write(`DM from ${socket.name}: ${dm}\n`);
+          client.write(`DM from ${name}: ${dm}\n`);
         }
       });
       break;
