@@ -48,12 +48,19 @@ class Client {
   parseCommand(command) {
     let parsedCommand = command.split(' ');
     let commandWord = parsedCommand[0];
+    let oldName = this.name;
     switch (commandWord) {
       case '@list':
         this.list();
         break;
       case '@quit':
         this.socket.end('\nCome back soon!\n\n');
+        break;
+      case '@nickname':
+        if(!this.changeName(parsedCommand.slice(1).join(' ')))
+          this.socket.write(`\nSorry, but the name ${parsedCommand.slice(1).join(' ')} is already taken.\n\n`);
+        else
+          this.otherClients().forEach(client => client.socket.write(`\n@${oldName} has changed their name to ${parsedCommand.slice(1).join(' ')}.\n\n`));
         break;
       default:
         this.socket.write(`\nValid commands: @list\n\n`);
