@@ -1,52 +1,25 @@
-![cf](https://i.imgur.com/7v5ASc8.png) Lab 06: TCP Chat Server
-======
+## Purpose
+This program creates a chatroom where users can talk to each other in either a group conversation or a private message using the @dm command (see Commands).
 
-## Submission Instructions
-* Work in a fork of this repository
-* Work in a branch on your fork
-* Write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
-* Open a pull request to this repository
-* Submit on canvas a question and observation, how long you spent, and a link to your pull request
+## How To Use
+To use the program first install the dependcies using npm install. Then run 'npm run start' to initialize the program and connect to the server. You can open a new client session in a new tab on the terminal. In the new tab connect with telnet via 'telnet 127.0.01 3000'. 127.0.0.1 is your computer's local address and we will connect through port 3000. You can now chat with the entire group by typing a message or write to a specific person using @dm (see Commands). You can also exit the program, find out who else is connected, or set a new name for yourself with the commands below.
 
-## Configuration 
-Configure the root of your repository with the following files and directories. Thoughtfully name and organize any additional configuration or module files.
-* **README.md** - contains documentation
-* **.env** - contains env variables (should be git ignored)
-* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file 
-* **.eslintrc.json** - contains the course linter configuratoin
-* **.eslintignore** - contains the course linter ignore configuration
-* **package.json** - contains npm package config
-  * create a `lint` script for running eslint
-  * create a `test` script for running tests
-  * create a `start` script for running your server
-* **lib/** - contains module definitions
-* **\_\_test\_\_/** - contains unit tests
+## Commands
+* @quit : Disconnects the client from the server.
+* @list : Lists all of the clients currently connected to the server.
+* @nickname <new_nickname> : Resets the client's name to be the name provided as <new_nickname>. A valid name must be provided or the client will be prompted to reenter the command with a valid name. The name can be anything except an empty string.
+For example @nickname Sarah will set your name to "Sarah"
+* @dm <destination_username> <message> : Sends a private message to the user specified as <destination_username>. The message can be any length.
+For example @dm Sarah How are you? Will send the message "How are you?" to the client with the username "Sarah".
 
-## Feature Tasks  
-For this assignment you will be building a TCP chatroom. Clients should be able to connect using a telnet client, nickname themselves, and talk to each other. Clients should also be able to run special commands to quit, list users, reset their nickname, and send direct messages. You may add as many features to the chat as you would like. Do not use any third party libraries in your chatroom modules.
+## Technologies Used
+* node
+* jest
+* net
+* eslint
+* faker
+* winston
+* ES6
 
-#### Minimum Requirements 
-* Create a TCP Server using the NodeJS `net` module
-* Create a Client constructor that models an individual connection. 
-  * Each client instance should contain at least an `id`, `nickname`, and `socket`.
-* Clients should be able to send messages to all other clients by sending it to the server
-* Clients should be able to run special commands by sending messages that start with a command name
-  * The client should send `@quit` to disconnect
-  * The client should send `@list` to list all connected users
-  * The client should send `@nickname <new-name>` to change their nickname
-  * The client should send `@dm <to-username> <message>` to  send a message directly to another user by nickname
-* Connected clients should be maintained in an in memory collection called the `clientPool`
-  * When a socket emits the `close` event, the socket should be removed from the client pool
-  * When a socket emits the `error` event, the error should be logged on the server
-  * When a socket emits the `data` event, the data should be logged on the server and the commands below should be implemented
-
-##  Documentation  
-In your README.md describe the exported values of each module you have defined. Every function description should include it's arity (expected number of parameters), the expected data for each parameter (data-type and limitations), and it's behavior (for both valid and invalid use). Feel free to write any additional information in your README.md.
-
-Also write documention for starting your server and connection using telnet. Write documentation for the chat room usage.
-
-## Testing  
-No testing required for this lab. Yay!
-
-## Bonus 1pt
-Use net.Socket to test your server. Your tests should include the ability to connect, send and receive messages, and run special commands.
+## Credits
+Vinicio Vladimir Sanchez Trejo & the Code Fellows curriculum provided the base .eslintrc, .eslintignore, .gitignore, index.js, log.json, and server.js files upon which the command functions were built.

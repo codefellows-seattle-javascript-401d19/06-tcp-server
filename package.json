@@ -1,0 +1,32 @@
+{
+  "name": "06-tcp-server",
+  "version": "1.0.0",
+  "description": "tcp lab for Code Fellows curriculum",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverge",
+    "lint": "eslint ./",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sedillon93/06-tcp-server.git"
+  },
+  "author": "shannon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sedillon93/06-tcp-server/issues"
+  },
+  "homepage": "https://github.com/sedillon93/06-tcp-server#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  }
+}
