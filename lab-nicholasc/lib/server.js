@@ -23,7 +23,7 @@ let parseCommand = (message, socket) => {
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
     let inputWord = parsedCommand[1];
-    let inputMessage = parsedCommand.slice(2, parsedCommand.length -1);
+    let inputMessage = parsedCommand.slice(2, parsedCommand.length).join(' ');
 
     switch(commandWord){
     case'@list': //like if(commandword === '@list'){}
@@ -43,7 +43,7 @@ let parseCommand = (message, socket) => {
         socket.write(`your nickname is now ${inputWord}`);
       } );
       break;
-    case'@dm': //like if(commandword === '@list'){}
+    case'@dm':
       for( let client of clients){
         if(client.name === inputWord){
           client.write(`${socket.name}: ${inputMessage}\n`);
@@ -61,17 +61,18 @@ let parseCommand = (message, socket) => {
 app.on('connection', (socket) => {
   socket.name = faker.internet.userName();
   clients.push(socket);
-  // logger.log('info',  `Net socket ${JSON.stringify(socket, null, 2)}`);
   socket.write('welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${socket.name}\n`);
 
   socket.on('data', (data) => {
     logger.log('info', `Processing data :${data}`);
     let message = data.toString().trim();
-
     if(parseCommand(message, socket))
       return;
 
+    if(message.startsWith('@')){
+      return;
+    }
     for( let client of clients){
       if(client !== socket){
         client.write(`${socket.name}: ${message}\n`);
@@ -93,6 +94,7 @@ const server  = module.exports = {};
 server.start = (port, callback) => {
   logger.log('info', `server is up`);
   console.log('info', `server is up`);
+  callback(null, port);
   return app.listen(port, callback);
 };
 
