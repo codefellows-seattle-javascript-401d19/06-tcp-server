@@ -17,14 +17,19 @@ logger.log('info','Hello world!');
 
 const app = net.createServer();
 let clients = [];
+console.log(clients);
 // ------------------------------------------------------
 
 let parseCommand = (message,socket) =>{
   if(message.startsWith('@')){
+    console.log('message:', message);
     let parsedCommand = message.split(' ');
+    console.log('parsedCommand', parsedCommand);
     let commandWord = parsedCommand[0];
+    let userName = parsedCommand[1];
+    let chat = parsedCommand.slice(2).join(' ');
     let value = parsedCommand.slice(1).join(' ');
-    let message = parsedCommand.slice(2).join(' ');
+
     switch(commandWord){
     case'@list':// vinicio - if(commandWord === '@list')
       socket.write(clients.map(client => client.name).join('\n') + '\n');
@@ -34,6 +39,7 @@ let parseCommand = (message,socket) =>{
       socket.write(`your new name is ${socket.name}\n`);
       break;
     case '@dm':
+      clients.filter((client) => client.name === userName)[0].write(`${socket.name}:${chat}\n`);
       break;
     case '@quit':
       socket.write(`${socket.name} has left the chatroom \n`);
