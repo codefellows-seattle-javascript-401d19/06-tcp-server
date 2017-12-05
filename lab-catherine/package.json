@@ -9,7 +9,8 @@
   "scripts": {
     "test": "jest -i --coverage",
     "lint": "estlint .",
-    "start": "node index.js"
+    "start": "node index.js",
+    "connect": "telnet 127.0.0.1 3000"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "jest": "^21.2.1"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
     "faker": "^4.1.0",
     "winston": "^2.4.0"
   }

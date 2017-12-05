@@ -24,11 +24,29 @@ let parseCommand = (message,socket) => {
     let commandWord = parsedCommand[0];
 
     switch(commandWord){
-    case'@list':
+    case '@list':
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
+    case '@quit':
+      socket.end(`See you next time ${socket.name}!\n`);
+      break;
+    case '@name':
+      clients.forEach(client => {
+        if(client.name === socket.name) {
+          client.name = socket.name = parsedCommand[1];
+        }
+      });
+      break;
+    case '@dm':
+      clients.forEach(client => {
+        if(client.name === parsedCommand[1]) {
+          let directMessage = parsedCommand[2];
+          client.write(`${socket.name}: Direct Message: ${directMessage}\n`);
+        }
+      });
+      break;
     default:
-      socket.write('Valid commands: @list\n');
+      socket.write(`Valid commands: @list, @quit, @name <new-username>, @dm <to user-name> <message>\n`);
       break;
     }
     return true;
