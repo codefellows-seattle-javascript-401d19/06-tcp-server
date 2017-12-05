@@ -1,0 +1,12 @@
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T02:39:08.397Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T02:40:34.706Z"}
+{"level":"info","message":"New client connected! Name: Veronica.Willms, id: e02d262c-27d2-4413-a3c4-a5f18747a7dd","timestamp":"2017-12-05T02:41:02.138Z"}
+{"level":"info","message":"New client connected! Name: Coleman21, id: 014ebdbd-9b86-4839-b85a-fc75fed97c06","timestamp":"2017-12-05T02:41:43.166Z"}
+{"level":"info","message":"Coleman21 typed: what's my name\r\n","timestamp":"2017-12-05T02:41:52.280Z"}
+{"level":"info","message":"Veronica.Willms typed: your name is Veronica.Willms\r\n","timestamp":"2017-12-05T02:42:03.293Z"}
+{"level":"info","message":"Coleman21 typed: are you there\r\n","timestamp":"2017-12-05T02:42:05.079Z"}
+{"level":"info","message":"Veronica.Willms typed: I'm, here\r\n","timestamp":"2017-12-05T02:42:08.687Z"}
+{"level":"info","message":"Coleman21 typed: boobs\r\n","timestamp":"2017-12-05T02:42:17.053Z"}
+{"level":"info","message":"Veronica.Willms typed: I should probably add some more information\r\n","timestamp":"2017-12-05T02:42:17.828Z"}
+{"level":"info","message":"Veronica.Willms typed: what is my name?\r\n","timestamp":"2017-12-05T02:42:21.837Z"}
+{"level":"info","message":"Coleman21 typed: Coleman21\r\n","timestamp":"2017-12-05T02:42:25.665Z"}
