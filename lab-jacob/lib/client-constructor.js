@@ -1,9 +1,7 @@
-'use strict';
 
 
-function clientConstructor(){}
 
-class clientConstructor{
+class clientConstructor{ 
  
   constructor(id, nickname, socket){
     this.id = id;

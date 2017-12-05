@@ -1,9 +1,9 @@
-
 'use strict';
 
 const net = require('net');
 const winston = require('winston');
 const faker = require('faker');
+const clientConstructor = require('./client-constructor');
 
 let logger = new (winston.Logger)({
   transports: [
@@ -21,10 +21,20 @@ let parseCommand = (message,socket) =>{
   if(message.startsWith('@')){
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
-
+    let client;
+    
     switch(commandWord){
     case'@list':
       socket.write(clients.map(client => client.name).join('\n') + '\n');
+      break;
+    case`@dm`:
+      clients.filter(x => x.name === parsedCommand[1]).join('\n') + '\n';
+      if(client === socket)
+        client.write(`${socket.name}: ${message}\n`);
+  
+      
+      socket.write();
+      logger.log('info',`${parsedCommand[1]}`);
       break;
     default:
       socket.write('Valid commands: @list\n');
@@ -68,6 +78,7 @@ app.on('connection', (socket) => {
 });
 
 const server = module.exports = {};
+
 
 server.start = (port, callback) => {
   logger.log('info',`Server is up on port ${port}`);
