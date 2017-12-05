@@ -90,6 +90,14 @@ const broadcast = (socket, message, clients) => {
 const changeNickname = (socket, clients, nickname) => {
   logger.log('info', `${socket.name} is now ${nickname}`);
 
+  for (let client of clients) {
+    console.log(`client: ${client}, nickname: ${nickname}`);
+    if (client.name === nickname) {
+      socket.write(`The nickname ${nickname} has already been taken. Please try another one you like\n`);
+      return;
+    }
+  }
+
   socket.write(`Henceforth, you shall be known as ${nickname}\n`);
 
   const message = {

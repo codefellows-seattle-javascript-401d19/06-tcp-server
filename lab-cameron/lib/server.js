@@ -4,6 +4,7 @@ const server = module.exports = {};
 
 const net = require('net');
 const faker = require('faker');
+const uuidv1 = require('uuid/v1');
 
 const {
   logger,
@@ -19,8 +20,11 @@ let clients = [];
 
 app.on('connection', socket => {
   socket.name = faker.internet.userName();
+  socket.id = uuidv1();
+
   clients.push(socket);
   logger.log('info', 'Net socket');
+  logger.log('info', `${socket.name} has connected under id ${socket.id}`);
 
   socket.write('Welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${socket.name}\n`);
