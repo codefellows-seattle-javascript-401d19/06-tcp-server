@@ -37,12 +37,12 @@ let parseCommand = (message,socket) =>{
       socket.name = parsedName;
       socket.write(`your username has been updated to ${socket.name}\n`);
       break;  
-    // case'@dm': // sending a dm to a person
-    //   var dmRecipient = parsedCommand[1];
-    //   var dmMessage = parsedCommand[2];
-    //   socket.write(dmMessage);
+    case'@dm': // sending a dm to a person
+      var dmRecipient = parsedCommand[1];
+      var dmMessage = parsedCommand[2];
+      socket.write(dmMessage);
     
-    // default:
+    default:
       socket.write('Valid commands: \n @list\n @quit (not working yet)\n @nickname <new-name>\n @dm <to-username> <message>');
       break;
     }

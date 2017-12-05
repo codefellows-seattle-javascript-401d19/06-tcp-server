@@ -1,58 +1,46 @@
-## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+## TCP Chat Server
+This little project spins up a TCP chat so you can chat all day long from the friendly confines of your computer. 
 
 ## Motivation
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+I was motivated by an extreme desire to learn web development which led me to enroll in this program which ultimately led me to this assignment. 
 
 ## Build status
-Build status of continus integration i.e. travis, appveyor etc. Ex. - 
 
 [![Build Status](https://travis-ci.org/akashnimare/foco.svg?branch=master)](https://travis-ci.org/akashnimare/foco)
 [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/akashnimare/foco?branch=master&svg=true)](https://ci.appveyor.com/project/akashnimare/foco/branch/master)
 
-## Code style
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
- 
-## Screenshots
-Include logo/demo screenshot etc.
-
 ## Tech/framework used
-Ex. -
-
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
+Node.JS, Javascript, ESLint, Jest, Faker, Winston
 
 ## Features
-What makes your project stand out?
+Mine fails in the most epic manner.. 
 
 ## Code Example
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
 
 ## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+Clone or fork this repo to your local machine then install the npm dependencies faker and winston. 
 
 ## Tests
-Describe and show how to run the tests with code examples.
+There are no tests right now.
 
 ## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+Once you install the dependencies you should be able to run `node index.js` to start your server. It will be running on port 3000. To access the chat use Telnet. To get into telnet enter `telnet 127.0.0.1 3000` which is telnet, your computer's default IP address and the port number of 3000. 
+
+## Functions In The Chat
+- `@quit` : disconnects the client from the chat
+- `@list` : lists out all the current users in the chat
+- `@nickname` : enter a new nickname to be known by in the chat
+- `@dm` : you can send a direct message to another user in the chat. *currently broken*
 
 ## Contribute
 
-Let people know how they can contribute into your project. A [contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md) will be a big plus.
+If anyone wants to help me out, feel free to open a pull request and send it over. PRs will be answered in the order they are received. 
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
+Mad props to anyone who helped me and my parents for birthing me.
 
 #### Anything else that seems useful
 
 ## License
-A short snippet describing the license (MIT, Apache etc)
-
-MIT © [David A. Lindahl](www.github.com/austriker27)
+MIT License
