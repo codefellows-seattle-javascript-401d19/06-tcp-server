@@ -1,0 +1,22 @@
+{
+  "name": "lab-anthony",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage"
+  },
+  "author": "Anthony Robinson",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "net": "^1.0.2",
+    "winston": "^2.4.0"
+  }
+}
