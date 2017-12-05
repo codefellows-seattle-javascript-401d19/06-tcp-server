@@ -3,7 +3,13 @@
 const net = require('net');
 const faker = require('faker');
 
-const { logger, removeClient, broadcast, quitChatroom } = require('./server-helpers');
+const {
+  logger,
+  removeClient,
+  broadcast,
+  quitChatroom,
+  changeNickname,
+} = require('./server-helpers');
 
 logger.log('info', 'Hello world!');
 
@@ -14,6 +20,7 @@ const parseCommand = (socket, message) => {
   if (message.input.startsWith('@')) {
     const parsedCommand = message.input.split(' ');
     const commandWord = parsedCommand[0];
+    const nickname = parsedCommand[1];
 
     switch (commandWord) {
     case '@list':
@@ -23,6 +30,7 @@ const parseCommand = (socket, message) => {
       quitChatroom(socket, clients);
       break;
     case '@nickname':
+      changeNickname(socket, clients, nickname);
       break;
     default:
       socket.write('Valid commands: @list\n');

@@ -9,13 +9,16 @@ const logger = new (winston.Logger)({
 });
 
 const removeClient = (socket, clients) => () => {
+  logger.log('info',`Removing ${socket.name}`);
+
   clients = clients.filter(client => {
     return client !== socket;
   });
-  logger.log('info',`Removing ${socket.name}`);
 };
 
 const quitChatroom = (socket, clients) => {
+  logger.log('info', `${socket.name} has left the chatroom`);
+
   socket.write('You have left the chatroom\n');
   socket.end();
 
@@ -25,7 +28,6 @@ const quitChatroom = (socket, clients) => {
   };
 
   broadcast(socket, message, clients);
-  logger.log('info', `${socket.name} has left the chatroom`);
 };
 
 const broadcast = (socket, message, clients) => {
@@ -41,6 +43,9 @@ const broadcast = (socket, message, clients) => {
       case 'userInput':
         client.write(`${socket.name}: ${message.input}\n`);
         break;
+      case 'nickname':
+        client.write(`${message.input} Yes, this will be confusing\n`);
+        break;
       default:
         break;
       }
@@ -48,4 +53,30 @@ const broadcast = (socket, message, clients) => {
   }
 };
 
-module.exports = { removeClient, quitChatroom, broadcast, logger };
+const changeNickname = (socket, clients, nickname) => {
+  logger.log('info', `${socket.name} is now ${nickname}`);
+
+  socket.write(`Henceforth, you shall be known as ${nickname}\n`);
+
+  const message = {
+    type: 'nickname',
+    input: `${socket.name} is now ${nickname}\n`,
+  };
+
+  for (let client of clients) {
+    if (client === socket) {
+      client = nickname;
+      socket.name = nickname;
+    }
+  }
+
+  broadcast(socket, message, clients);
+};
+
+module.exports = {
+  removeClient,
+  quitChatroom,
+  broadcast,
+  logger,
+  changeNickname,
+};
