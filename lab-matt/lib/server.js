@@ -27,10 +27,13 @@ let parseCommand = (message, socket) => {
     let commandInput = parseCommand[1];
 
     switch (commandWord) {
+
+      // mattL - command is '@list'
       case '@list':
         socket.write(clientPool.map(client => client.name).join('\n') + '\n');
       break;
 
+      // mattL - command is '@nickname <newName>'
       case '@nickname':
         if (commandInput) {
           let nameExists = clientPool.some((each) => {
@@ -48,6 +51,7 @@ let parseCommand = (message, socket) => {
         }
       break;
 
+      // mattL - command is '@quit'      
       case '@quit':
         clientPool = clientPool.filter((client) => {
           if (client !== socket)
@@ -56,7 +60,9 @@ let parseCommand = (message, socket) => {
         socket.destroy();
       break;
 
+      // mattL - command is '@dm <user> <message>'      
       case '@dm':
+        //mattL - magical regex (returns anything past '@dm <anythingButWhiteSpace> ')
         let directMessage = message.match(/^@dm \S+ (.+)/)[1];
       
         for(let client of clientPool) {
@@ -66,12 +72,15 @@ let parseCommand = (message, socket) => {
         }
       break;
 
+      // mattL - default if no matching @commands
       default:
         socket.write('valid commands: @list | @dm | @nickname |  @quit \n');
       break;
     }
+    // mattL - return true if the original message started with '@' 
     return true;
   }
+  // mattL - return false if the orginal message did not start with '@'
   return false;
 }
 
