@@ -11,8 +11,6 @@ let logger = new (winston.Logger)({
   ],
 });
 
-logger.log('info','Hello world!');
-
 class Client {
   constructor(socket){
     this.id = faker.random.uuid();
