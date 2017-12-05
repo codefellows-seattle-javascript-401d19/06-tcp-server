@@ -13,25 +13,12 @@ let logger = new (winston.Logger)({
 const app = net.createServer();
 let clients = [];
 
-class Client {
-  constructor(socket) {
-    this.id = faker.random.uuid();
-    this.name = faker.internet.userName();
-    this.socket = socket;
-    clients.push(this);
-  }
-};
-
-
 let parseCommand = (message,socket) =>{
-  let name;
-  clients.forEach(client => {
-    if(client.socket === socket)
-      name = client.name;
-  });
+
   if(message.startsWith('@')) {
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
+    let dmMessage = parsedCommand[2];
 
     switch(commandWord){
 
@@ -40,8 +27,34 @@ let parseCommand = (message,socket) =>{
       break;
 
     case'@quit':
-      socket.write(`Goodbye, ${name} `);
+      socket.write(`Goodbye, ${socket.name} `);
       socket.destroy();
+      break;
+
+    case'@name':
+      if(!parsedCommand[1]) {
+        socket.write('Please enter your new user name after command @name\n');
+        return;
+      }
+      let newName = parsedCommand[1];
+      socket.name = newName;
+      socket.write(`Your new name is ${socket.name}\n`);
+      break;
+
+    case'@dm':
+
+      let names = clients.map(client => client.name);
+      if(!names.includes(parsedCommand[1]))
+        socket.write(`${parsedCommand[1]} is not one of the chat members, please pick another member.`);
+      if(!dmMessage)
+        socket.write(`${name}, you have to type your message after typing chat member's name`);
+
+      clients.forEach(client =>  {
+        if(client.name === parseCommand[1]) {
+          let dmMessageParsed = parsedCommand.slice(2).join(' ');
+          client.write(`Direct message from ${socket.name}: ${dmMessageParsed}\n`);
+        };
+      });
       break;
 
     default:
@@ -54,15 +67,10 @@ let parseCommand = (message,socket) =>{
 };
 
 app.on('connection', (socket) => {
-  new Client(socket);
-  let name;
-  clients.forEach(client => {
-    if(client.socket === socket)
-      name = client.name;
-  });
-
+  socket.name = faker.internet.userName();
+  clients.push(socket);
   socket.write('Welcome to 401d19 chatroom\n');
-  socket.write(`Your name is ${name}\n`);
+  socket.write(`Your name is ${socket.name}\n`);
 
 
   socket.on('data',(data) => {
@@ -74,8 +82,8 @@ app.on('connection', (socket) => {
 
     for(let client of clients){
       //vinicio - instead of doing clients[client] I can use directly client
-      if(client !== socket)
-        client.write(`${name}: ${message}\n`);
+      if(client.socket !== socket)
+        client.write(`${socket.name}: ${message}\n`);
     }
   });
 
@@ -83,7 +91,7 @@ app.on('connection', (socket) => {
     clients = clients.filter((client) => {
       return client !== socket;
     });
-    logger.log('info',`Removing ${name}`);
+    logger.log('info',`Removing ${socket.name}`);
   };
   socket.on('error', removeClient(socket));
   socket.on('close', removeClient(socket));
