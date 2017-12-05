@@ -5,10 +5,18 @@ const net = require('net');
 const winston = require('winston');
 const faker = require('faker');
 
-class
+const TCPServerModule = () => {}
 
+class TCPServerModule{
+ 
+  constructor(id, nickname, socket){
+    this.value = value;
+    this.nickname = nickname;
+    this.socket = socket;
+  }
+}
 
-
+module.exports = TCPServerModule;
 
 let logger = new (winston.Logger)({
   transports: [
@@ -84,3 +92,4 @@ server.stop = (callback) => {
   logger.log('info',`Server is off`);
   return app.close(callback);
 };
+
