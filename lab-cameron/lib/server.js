@@ -1,14 +1,9 @@
 'use strict';
 
 const net = require('net');
-const winston = require('winston');
 const faker = require('faker');
 
-const logger = new (winston.Logger)({
-  transports: [
-    new (winston.transports.File)({ filename: 'log.json'}),
-  ],
-});
+const { logger, removeClient, broadcast, quitChatroom } = require('./server-helpers');
 
 logger.log('info', 'Hello world!');
 
@@ -25,7 +20,9 @@ const parseCommand = (socket, message) => {
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
     case '@quit':
-      quitChatroom(socket);
+      quitChatroom(socket, clients);
+      break;
+    case '@nickname':
       break;
     default:
       socket.write('Valid commands: @list\n');
@@ -36,45 +33,6 @@ const parseCommand = (socket, message) => {
   return false;
 };
 
-const removeClient = socket => () => {
-  clients = clients.filter(client => {
-    return client !== socket;
-  });
-  logger.log('info',`Removing ${socket.name}`);
-};
-
-const quitChatroom = socket => {
-  socket.write('You have left the chatroom\n');
-  socket.end();
-
-  const message = {
-    type: 'exit',
-    input: `${socket.name} has left the chatroom`,
-  };
-
-  broadcast(socket, message);
-  logger.log('info', `${socket.name} has left the chatroom`);
-};
-
-const broadcast = (socket, message) => {
-  for (let client of clients) {
-    if (client !== socket) {
-      switch (message.type) {
-      case 'enter':
-        client.write(`${message.input}\n`);
-        break;
-      case 'exit':
-        client.write(`${message.input}\n`);
-        break;
-      case 'userInput':
-        client.write(`${socket.name}: ${message.input}\n`);
-        break;
-      default:
-        break;
-      }
-    }
-  }
-};
 
 app.on('connection', socket => {
   socket.name = faker.internet.userName();
@@ -89,7 +47,7 @@ app.on('connection', socket => {
     input: `${socket.name} has entered the chatroom`,
   };
 
-  broadcast(socket, message);
+  broadcast(socket, message, clients);
 
   socket.on('data', data => {
     logger.log('info', `Processing data: ${data}`);
@@ -103,12 +61,12 @@ app.on('connection', socket => {
       return;
     }
 
-    broadcast(socket, message);
+    broadcast(socket, message, clients);
   });
 
 
-  socket.on('error', removeClient(socket));
-  socket.on('close', removeClient(socket));
+  socket.on('error', removeClient(socket, clients));
+  socket.on('close', removeClient(socket, clients));
 });
 
 const server = module.exports = {};
