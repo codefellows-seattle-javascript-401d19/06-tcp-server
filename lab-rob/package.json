@@ -7,7 +7,9 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest -i --coverage"
+    "test": "jest -i --coverage",
+    "lint": "eslint .",
+    "start": "node index.js"
   },
   "author": "Robert Reed",
   "license": "MIT",
