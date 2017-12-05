@@ -10,7 +10,7 @@ Standard
 
 # Screenshots
 
-~[Alt text](lab-cameron/images/Selection_100.png "Screenshot")
+~[Alt text](06/tcp-server/lab-cameron/images/Selection_100.png "Screenshot")
 
 # Tech/framework used
 
