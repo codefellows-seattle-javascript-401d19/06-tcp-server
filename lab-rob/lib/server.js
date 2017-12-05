@@ -19,7 +19,8 @@ app.on('connection', socket => {
   
   logger.log('info', `New client connected! Name: ${currentClient.name}, id: ${currentClient.id}`);
   socket.write(`\nWelcome to the ${chatRoomName} chat room!\n`);
-  socket.write(`\nYour chat name is: ${currentClient.name}.\n\n`);
+  socket.write(`\nYour chat name is: ${currentClient.name}.\n`);
+  socket.write(`\nFind current users by typing @list\n\nSee your current name with @me\n\nChange your name by typing @nickname <new-name>\n\nSend a direct message to a user by typing @dm <user-name> <message>\n\nSend a message to all users by typing and pressing enter\n\nQuit with @quit\n\n`);
 
   socket.on('data', data => {
     data = data.toString().trim();

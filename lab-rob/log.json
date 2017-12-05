@@ -231,3 +231,69 @@
 {"level":"info","message":"Kimberly.Muller typed: @nickname myNewName","timestamp":"2017-12-05T07:03:15.989Z"}
 {"level":"info","message":"New client connected! Name: Brigitte.Thiel, id: aa5123e7-9360-42b1-8c7d-51bb33e51670","timestamp":"2017-12-05T07:03:23.005Z"}
 {"level":"info","message":"Brigitte.Thiel typed: @list","timestamp":"2017-12-05T07:03:26.978Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T07:14:20.780Z"}
+{"level":"info","message":"New client connected! Name: Isobel.Bauch, id: e1e61ebb-55e5-48e8-b3b0-9758f110e184","timestamp":"2017-12-05T07:14:25.355Z"}
+{"level":"info","message":"Isobel.Bauch typed: @nickname rob","timestamp":"2017-12-05T07:14:31.578Z"}
+{"level":"info","message":"New client connected! Name: Alessandra_Ernser, id: ecf37b66-2b58-4f50-9829-e67ba7d3c70c","timestamp":"2017-12-05T07:14:35.495Z"}
+{"level":"info","message":"Alessandra_Ernser typed: @sarah","timestamp":"2017-12-05T07:14:39.208Z"}
+{"level":"info","message":"Alessandra_Ernser typed: @nickname sarah","timestamp":"2017-12-05T07:14:47.034Z"}
+{"level":"info","message":"New client connected! Name: Sedrick77, id: 60399410-b56c-4e43-9093-8d08208b17ed","timestamp":"2017-12-05T07:14:59.346Z"}
+{"level":"info","message":"Sedrick77 typed: @nickname ollie the eavesdropper","timestamp":"2017-12-05T07:15:12.206Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T07:17:28.478Z"}
+{"level":"info","message":"New client connected! Name: Conrad.Gerlach, id: 87e2df1b-5b2a-484b-b3b5-77272e957f0e","timestamp":"2017-12-05T07:17:32.805Z"}
+{"level":"info","message":"Conrad.Gerlach typed: @nickname rob","timestamp":"2017-12-05T07:17:36.627Z"}
+{"level":"info","message":"New client connected! Name: Garnett_Shields84, id: 3f296082-fe76-4dc9-8712-0bb121265c9f","timestamp":"2017-12-05T07:17:40.230Z"}
+{"level":"info","message":"Garnett_Shields84 typed: @nickname sarah","timestamp":"2017-12-05T07:17:44.109Z"}
+{"level":"info","message":"New client connected! Name: Zack53, id: 12a7b527-cdbf-4f7b-9e8c-f84438445a47","timestamp":"2017-12-05T07:17:48.494Z"}
+{"level":"info","message":"Zack53 typed: @nickname ollie the listener","timestamp":"2017-12-05T07:17:55.188Z"}
+{"level":"info","message":"rob typed: hello","timestamp":"2017-12-05T07:18:00.792Z"}
+{"level":"info","message":"rob typed: @dm sarah hey sarah, what's up?","timestamp":"2017-12-05T07:18:21.147Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T07:23:31.865Z"}
+{"level":"info","message":"New client connected! Name: Marilie.Buckridge96, id: b7fe6595-6c3f-4a6f-926b-53780484bbcf","timestamp":"2017-12-05T07:23:48.538Z"}
+{"level":"info","message":"New client connected! Name: Felicia_Cummerata, id: f30968e9-d979-4df6-897c-6b591675437b","timestamp":"2017-12-05T07:24:01.292Z"}
+{"level":"info","message":"Felicia_Cummerata typed: @list","timestamp":"2017-12-05T07:24:04.258Z"}
+{"level":"info","message":"Marilie.Buckridge96 typed: @lilsharkie22 <new-name>","timestamp":"2017-12-05T07:24:32.564Z"}
+{"level":"info","message":"Marilie.Buckridge96 typed: @nickname <lilsharkie22>","timestamp":"2017-12-05T07:24:54.990Z"}
+{"level":"info","message":"Felicia_Cummerata typed: Talk to me already!","timestamp":"2017-12-05T07:25:20.575Z"}
+{"level":"info","message":"<lilsharkie22> typed: @nickname lilsharkie22","timestamp":"2017-12-05T07:25:25.004Z"}
+{"level":"info","message":"lilsharkie22 typed: Sorry hi!","timestamp":"2017-12-05T07:25:31.035Z"}
+{"level":"info","message":"Felicia_Cummerata typed: Hi!","timestamp":"2017-12-05T07:25:33.305Z"}
+{"level":"info","message":"Felicia_Cummerata typed: Oh, wait","timestamp":"2017-12-05T07:25:36.196Z"}
+{"level":"info","message":"Felicia_Cummerata typed: @nickname rob-a-dob-dob","timestamp":"2017-12-05T07:25:43.970Z"}
+{"level":"info","message":"rob-a-dob-dob typed: Hey there girl!","timestamp":"2017-12-05T07:25:50.704Z"}
+{"level":"info","message":"lilsharkie22 typed: I like it. You're my little ducky!","timestamp":"2017-12-05T07:25:55.713Z"}
+{"level":"info","message":"rob-a-dob-dob typed: Just so you know, all of this conversation is going onto github","timestamp":"2017-12-05T07:26:06.875Z"}
+{"level":"info","message":"rob-a-dob-dob typed: so be careful","timestamp":"2017-12-05T07:26:14.441Z"}
+{"level":"info","message":"lilsharkie22 typed: @dm what about now?","timestamp":"2017-12-05T07:26:15.647Z"}
+{"level":"info","message":"New client connected! Name: Roy97, id: 66e5343f-46fb-49e6-9f67-a6bcbd8fc4b8","timestamp":"2017-12-05T07:26:19.244Z"}
+{"level":"info","message":"Roy97 typed: @nickname ollie-the-dog","timestamp":"2017-12-05T07:26:55.498Z"}
+{"level":"info","message":"New client connected! Name: Daren_Gerlach, id: fca6e88b-38d2-41ac-b7f3-5b7f48ce366e","timestamp":"2017-12-05T07:27:02.224Z"}
+{"level":"info","message":"Daren_Gerlach typed: @nickname stella-the-butt","timestamp":"2017-12-05T07:27:12.092Z"}
+{"level":"info","message":"lilsharkie22 typed: The names it comes up with are the worst.","timestamp":"2017-12-05T07:27:15.179Z"}
+{"level":"info","message":"stella-the-butt typed: awww","timestamp":"2017-12-05T07:27:19.810Z"}
+{"level":"info","message":"lilsharkie22 typed: Oh I like that one though","timestamp":"2017-12-05T07:27:19.812Z"}
+{"level":"info","message":"stella-the-butt typed: send stella a direct message","timestamp":"2017-12-05T07:27:31.275Z"}
+{"level":"info","message":"stella-the-butt typed: @list","timestamp":"2017-12-05T07:27:32.609Z"}
+{"level":"info","message":"stella-the-butt typed: type @dm stella-the-butt and then whatever your message is","timestamp":"2017-12-05T07:27:59.849Z"}
+{"level":"info","message":"lilsharkie22 typed: @dm stella-the-butt hi luney bear","timestamp":"2017-12-05T07:28:00.069Z"}
+{"level":"info","message":"lilsharkie22 typed: @dm stella-the-butt hello doggie girl","timestamp":"2017-12-05T07:28:30.293Z"}
+{"level":"info","message":"stella-the-butt typed: @quit","timestamp":"2017-12-05T07:29:47.514Z"}
+{"level":"info","message":"ollie-the-dog typed: @quit","timestamp":"2017-12-05T07:29:54.542Z"}
+{"level":"info","message":"rob-a-dob-dob typed: @quit","timestamp":"2017-12-05T07:30:00.115Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T07:30:07.923Z"}
+{"level":"info","message":"New client connected! Name: Astrid.Buckridge10, id: 50ab8cd7-2112-43a1-8c4d-f589d6001d1e","timestamp":"2017-12-05T07:30:11.032Z"}
+{"level":"info","message":"New client connected! Name: Kavon.Murphy, id: f4eb5b5d-e8c5-4cf9-a720-fee5e1f2f080","timestamp":"2017-12-05T07:30:16.028Z"}
+{"level":"info","message":"Astrid.Buckridge10 typed: @nickname robbie","timestamp":"2017-12-05T07:30:20.891Z"}
+{"level":"info","message":"New client connected! Name: Zora_Mitchell, id: 201adfd6-50ed-4e60-8fe4-ec6a09105169","timestamp":"2017-12-05T07:30:27.635Z"}
+{"level":"info","message":"Kavon.Murphy typed: @nickname tiredgirl","timestamp":"2017-12-05T07:30:31.177Z"}
+{"level":"info","message":"Zora_Mitchell typed: @nickname ollie","timestamp":"2017-12-05T07:30:31.210Z"}
+{"level":"info","message":"ollie typed: hey tired girl, can you send ollie a direct message please?","timestamp":"2017-12-05T07:30:53.979Z"}
+{"level":"info","message":"tiredgirl typed: @dm ollie hi you're my puppy dog","timestamp":"2017-12-05T07:31:09.783Z"}
+{"level":"info","message":"tiredgirl typed: hi","timestamp":"2017-12-05T07:31:26.577Z"}
+{"level":"info","message":"tiredgirl typed: @quit","timestamp":"2017-12-05T07:31:55.663Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T07:35:15.417Z"}
+{"level":"info","message":"New client connected! Name: Stephania.White56, id: 3d4e6d4e-681b-49ea-97b3-2535f02cb59a","timestamp":"2017-12-05T07:35:17.077Z"}
+{"level":"info","message":"Stephania.White56 typed: @me","timestamp":"2017-12-05T07:35:19.012Z"}
+{"level":"info","message":"Stephania.White56 typed: ����\u0006","timestamp":"2017-12-05T07:36:31.199Z"}
+{"level":"info","message":"Stephania.White56 typed: ","timestamp":"2017-12-05T07:36:33.626Z"}
+{"level":"info","message":"Stephania.White56 typed: @quit","timestamp":"2017-12-05T07:36:36.265Z"}
