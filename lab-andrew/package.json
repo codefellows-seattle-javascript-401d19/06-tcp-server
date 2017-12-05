@@ -1,0 +1,37 @@
+{
+  "name": "lab-andrew",
+  "version": "1.0.0",
+  "description": "tcp-server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALB37/06-tcp-server.git"
+  },
+  "keywords": [
+    "tcp",
+    "chatroom"
+  ],
+  "author": "Andrew Bloom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ALB37/06-tcp-server/issues"
+  },
+  "homepage": "https://github.com/ALB37/06-tcp-server#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  }
+}
