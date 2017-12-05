@@ -43,7 +43,12 @@ let parseCommand = (message, socket) => {
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
     case '@quit':
-      socket.end('Goodbye!');
+      clients.forEach((client, index) => {
+        if (client.socket === socket){
+          clients.splice(index, 1);
+        }
+      });
+      socket.end('Goodbye!\n');
       break;
     case '@name':
       clients.forEach(client => {
@@ -120,7 +125,6 @@ const server = module.exports = {};
 
 server.start = (port, callback) => {
   logger.log('info',`Server is up on port ${port}`);
-  console.log('info',`Server is up on port ${port}`);
   return app.listen(port,callback);
 };
 

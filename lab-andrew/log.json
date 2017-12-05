@@ -57,3 +57,16 @@
 {"level":"info","message":"Processing data: actually I go by Carol\r\n","timestamp":"2017-12-05T02:44:20.025Z"}
 {"level":"info","message":"Processing data: @dm Carol hey carol\r\n","timestamp":"2017-12-05T02:44:42.637Z"}
 {"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:44:58.245Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:57:30.105Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:57:30.107Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:57:33.310Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:57:35.314Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:57:37.013Z"}
+{"level":"info","message":"Processing data: k sup\r\n","timestamp":"2017-12-05T02:57:52.536Z"}
+{"level":"info","message":"Processing data: @name Jeremy\r\n","timestamp":"2017-12-05T02:58:00.348Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:58:06.262Z"}
+{"level":"info","message":"Processing data: Hi\r\n","timestamp":"2017-12-05T02:58:11.407Z"}
+{"level":"info","message":"Processing data: @dm Jeremy Hi jeremy I don't like Hipolito\r\n","timestamp":"2017-12-05T02:58:26.556Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T02:58:41.714Z"}
+{"level":"info","message":"Removing Jeremy","timestamp":"2017-12-05T02:58:41.718Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:58:49.730Z"}
