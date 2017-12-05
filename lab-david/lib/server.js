@@ -28,12 +28,17 @@ let parseCommand = (message,socket) =>{
     case'@list':// vinicio - if(commandWord === '@list')
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
-    case'@quit':
+    case'@quit': // allows a user to quit the chatroom 
       socket.write(`goodbye ${socket.name}..` + '\n');
       removeClient(`${socket.name}`);
       break;
+    case'@nickname': // allows a user to change their name 
+      let parsedName = parsedCommand[1];
+    //   socket.write(`okay we are changing your name to ${parsedName}` + '\n')
+        socket.write(socket.name = parsedName);
+        break;  
     default:
-      socket.write('Valid commands: \n @list\n @quit (not working yet)\n');
+      socket.write('Valid commands: \n @list\n @quit (not working yet)\n @nickname <new-name>\n');
       break;
     }
     return true;

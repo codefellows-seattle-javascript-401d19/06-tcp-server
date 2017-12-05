@@ -31,3 +31,17 @@
 {"level":"info","message":"Net socket","timestamp":"2017-12-05T00:15:35.028Z"}
 {"level":"info","message":"Processing data: @all\r\n","timestamp":"2017-12-05T00:15:37.471Z"}
 {"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T00:15:46.950Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T00:48:30.699Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T00:48:30.701Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T00:48:33.810Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T00:48:37.983Z"}
+{"level":"info","message":"Processing data: @eee\r\n","timestamp":"2017-12-05T00:48:42.975Z"}
+{"level":"info","message":"Processing data: @nickname jimmy\r\n","timestamp":"2017-12-05T00:48:50.174Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T00:48:53.758Z"}
+{"level":"info","message":"Processing data: @all\r\n","timestamp":"2017-12-05T00:48:59.150Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T00:49:01.622Z"}
+{"level":"info","message":"Processing data: @nickname\r\n","timestamp":"2017-12-05T00:49:05.462Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T00:49:33.333Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T00:49:33.334Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T00:49:35.613Z"}
+{"level":"info","message":"Processing data: @nickname ji\r\n","timestamp":"2017-12-05T00:49:40.782Z"}
