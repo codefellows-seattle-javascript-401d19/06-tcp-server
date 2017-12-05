@@ -66,7 +66,7 @@ const broadcast = (socket, message) => {
       case 'exit':
         client.write(`${message.input}\n`);
         break;
-      case 'chat':
+      case 'userInput':
         client.write(`${socket.name}: ${message.input}\n`);
         break;
       default:
@@ -95,7 +95,7 @@ app.on('connection', socket => {
     logger.log('info', `Processing data: ${data}`);
 
     const message = {
-      type: 'chat',
+      type: 'userInput',
       input: data.toString().trim(),
     };
 
