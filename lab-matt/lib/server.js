@@ -40,14 +40,20 @@ let parseCommand = (message, socket) => {
       break;
 
       case '@nickname':
-        for (let client of clients) {
-          if (!client === socket) {
-            socket.write(' no mo life \n');
-          } else {
-            socket.write(' life \n');
-          }
-        }
+        if (commandPrompt) {
+          let nameExists = clients.some((each) => {
+            return (each.name === commandPrompt);
+          })
 
+          if (nameExists) {
+            return socket.write(`name: ${commandPrompt} has already been taken\n`);
+          } else {
+            socket.name = commandPrompt;
+            return socket.write(`your name has been changed to: '${socket.name}'\n`);
+          }
+        } else {
+          socket.write(`no input for username, syntax: '@username <your username>'\n`);
+        }
       break;
 
       default:
@@ -64,7 +70,8 @@ let parseCommand = (message, socket) => {
 app.on('connection', (socket) => {
   socket.name = faker.internet.userName();
   clients.push(socket);
-  logger.log('info', `New Socket`);
+
+  logger.log('info', `New Socket | Name: ${socket.name}`);
   socket.write('Welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${socket.name}\n`);
   
@@ -73,10 +80,8 @@ app.on('connection', (socket) => {
     
     let message = data.toString().trim();
     
-    removeClient(socket);
-    
     if (parseCommand(message, socket))
-    return;
+      return;
     
     for(let client of clients) {
       if (client !== socket) {
@@ -85,8 +90,7 @@ app.on('connection', (socket) => {
     }
   });
 
-  let removeClient = (socket) => () => {
-    
+  let removeClient = (socket) => () => { 
     clients = clients.filter((client) => {
       return client !== socket;
     }); 
