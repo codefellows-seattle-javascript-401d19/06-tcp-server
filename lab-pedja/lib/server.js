@@ -24,6 +24,11 @@ class Client {
 
 
 let parseCommand = (message,socket) =>{
+  let name;
+  clients.forEach(client => {
+    if(client.socket === socket)
+      name = client.name;
+  });
   if(message.startsWith('@')) {
     let parsedCommand = message.split(' ');
     let commandWord = parsedCommand[0];
@@ -32,6 +37,11 @@ let parseCommand = (message,socket) =>{
 
     case'@list': // vinicio - if(commandWord === '@list')
       socket.write(clients.map(client => client.name).join('\n') + '\n');
+      break;
+
+    case'@quit':
+      socket.write(`Goodbye, ${name} `);
+      socket.destroy();
       break;
 
     default:
@@ -50,7 +60,6 @@ app.on('connection', (socket) => {
     if(client.socket === socket)
       name = client.name;
   });
-  logger.log('info', `${name}`);
 
   socket.write('Welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${name}\n`);
