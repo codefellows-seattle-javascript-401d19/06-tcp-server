@@ -43,8 +43,16 @@ let logger = new (winston.Logger)({
 
 app.on('connection', socket => {
   let currentClient = new Client(socket);
+  
   logger.log('info', `New client connected! Name: ${currentClient.name}, id: ${currentClient.id}`);
-  socket.write(`Welcome to the ${chatRoomName} chat room!\n`);
+  socket.write(`\nWelcome to the ${chatRoomName} chat room!\n`);
+
+  for(let client of clients) {
+    if(client.socket !== socket)
+      client.socket.write(`\n${currentClient.name} has joined the chat room.\n`);
+    else 
+      client.socket.write(`\nYour chat name is: ${currentClient.name}.\n`);
+  }
 
   socket.on('data', data => {
     logger.log('info', `${currentClient.name} typed: ${data}`);
@@ -57,6 +65,10 @@ app.on('connection', socket => {
 
   let removeClient = socket => () => {
     clients = clients.filter(client => {
+      for(let client of clients) {
+        if(client.socket !== socket)
+          client.socket.write(`${currentClient.name} has left the chat.`);
+      }
       return client.socket !== socket;
     });
   };
