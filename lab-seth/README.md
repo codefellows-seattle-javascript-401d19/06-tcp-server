@@ -18,7 +18,7 @@ js-standard-style
 
 ## Screenshots
 
-![alt text](https://github.com/SethDonohue/06-tcp-server/blob/seth-lab/lab-seth/img/TCP-Chat-Server.png "Chat Room Example")
+![Chat Room Example](https://raw.githubusercontent.com/SethDonohue/06-tcp-server/seth-lab/lab-seth/img/TCP-Chat-Server.png)
 
 ## Tech/framework used
 - Eslint
