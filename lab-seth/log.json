@@ -143,3 +143,127 @@
 {"level":"info","message":"Net socket","timestamp":"2017-12-05T00:45:37.728Z"}
 {"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T00:45:41.610Z"}
 {"level":"info","message":"Removing seth","timestamp":"2017-12-05T00:45:41.612Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:04:28.560Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:04:28.561Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T01:04:31.565Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T01:04:33.845Z"}
+{"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T01:04:37.242Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T01:04:37.243Z"}
+{"level":"info","message":"Processing data: @dm\r\n","timestamp":"2017-12-05T01:04:43.852Z"}
+{"level":"info","message":"Removing Gerda_Turner51","timestamp":"2017-12-05T01:04:43.852Z"}
+{"level":"info","message":"Processing data: @dm seth\r\n","timestamp":"2017-12-05T01:04:47.605Z"}
+{"level":"info","message":"Removing Gerda_Turner51","timestamp":"2017-12-05T01:04:47.605Z"}
+{"level":"info","message":"Processing data: @dm seth hey!\r\n","timestamp":"2017-12-05T01:04:56.975Z"}
+{"level":"info","message":"Removing Gerda_Turner51","timestamp":"2017-12-05T01:04:56.976Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:05:49.513Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:05:49.514Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T01:05:51.894Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T01:05:54.712Z"}
+{"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T01:06:08.079Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T01:06:08.081Z"}
+{"level":"info","message":"Processing data: @dm seth hi\r\n","timestamp":"2017-12-05T01:06:20.578Z"}
+{"level":"info","message":"Removing Kari.Wintheiser","timestamp":"2017-12-05T01:06:20.579Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:46:36.287Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:46:36.288Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T02:46:52.659Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T02:47:00.740Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:47:04.263Z"}
+{"level":"info","message":"Removing Gonzalo.Hirthe29","timestamp":"2017-12-05T02:47:04.265Z"}
+{"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T02:47:08.015Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T02:47:08.016Z"}
+{"level":"info","message":"Processing data: @dm seth hey!\r\n","timestamp":"2017-12-05T02:47:17.617Z"}
+{"level":"info","message":"Removing Reynold.Abernathy","timestamp":"2017-12-05T02:47:17.617Z"}
+{"level":"info","message":"Processing data: @dm Gonzalo.Hirthe29 hey!\r\n","timestamp":"2017-12-05T03:00:37.956Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T03:00:37.957Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:02:15.010Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:02:15.011Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:02:20.142Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:02:23.290Z"}
+{"level":"info","message":"Processing data: @dm Armand.Jacobs2 hey\r\n","timestamp":"2017-12-05T03:02:49.962Z"}
+{"level":"info","message":"Removing Nicolas28","timestamp":"2017-12-05T03:02:49.964Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T03:03:02.230Z"}
+{"level":"info","message":"Removing Armand.Jacobs2","timestamp":"2017-12-05T03:03:02.230Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:03:04.596Z"}
+{"level":"info","message":"Removing Armand.Jacobs2","timestamp":"2017-12-05T03:03:04.596Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:03:09.127Z"}
+{"level":"info","message":"Removing Armand.Jacobs2","timestamp":"2017-12-05T03:03:09.127Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:03:12.537Z"}
+{"level":"info","message":"Removing Armand.Jacobs2","timestamp":"2017-12-05T03:03:12.539Z"}
+{"level":"info","message":"Removing Armand.Jacobs2","timestamp":"2017-12-05T03:03:12.543Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:03:14.662Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:03:24.982Z"}
+{"level":"info","message":"Removing Ahmad99","timestamp":"2017-12-05T03:03:24.982Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:03:55.942Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:03:55.943Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:03:58.472Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:04:00.438Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:04:02.098Z"}
+{"level":"info","message":"Removing Angus5","timestamp":"2017-12-05T03:04:02.098Z"}
+{"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T03:04:10.450Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T03:04:10.451Z"}
+{"level":"info","message":"Processing data: @dm seth test 1 2 3\r\n","timestamp":"2017-12-05T03:04:19.097Z"}
+{"level":"info","message":"Removing Lyla_Barrows97","timestamp":"2017-12-05T03:04:19.098Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T03:04:32.336Z"}
+{"level":"info","message":"Removing Lyla_Barrows97","timestamp":"2017-12-05T03:04:32.336Z"}
+{"level":"info","message":"Processing data: @dm\r\n","timestamp":"2017-12-05T03:04:37.363Z"}
+{"level":"info","message":"Removing Lyla_Barrows97","timestamp":"2017-12-05T03:04:37.364Z"}
+{"level":"info","message":"Processing data: @dm seth hey\r\n","timestamp":"2017-12-05T03:04:41.605Z"}
+{"level":"info","message":"Removing Lyla_Barrows97","timestamp":"2017-12-05T03:04:41.605Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T03:04:47.718Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T03:04:47.718Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:04:49.499Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T03:04:49.499Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:05:01.367Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:05:01.368Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:05:04.714Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:05:06.668Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:05:11.040Z"}
+{"level":"info","message":"Removing Anabel.Mohr23","timestamp":"2017-12-05T03:05:11.042Z"}
+{"level":"info","message":"Processing data: @dm Alia.Schroeder hey\r\n","timestamp":"2017-12-05T03:05:24.047Z"}
+{"level":"info","message":"Removing Anabel.Mohr23","timestamp":"2017-12-05T03:05:24.047Z"}
+{"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T03:06:54.539Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T03:06:54.540Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:06:59.954Z"}
+{"level":"info","message":"Removing Alia.Schroeder","timestamp":"2017-12-05T03:06:59.954Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:08:41.807Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:08:41.808Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:09:13.563Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:09:22.783Z"}
+{"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T03:09:35.337Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T03:09:35.339Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:09:42.485Z"}
+{"level":"info","message":"Removing Kyleigh_Brekke54","timestamp":"2017-12-05T03:09:42.486Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:09:48.048Z"}
+{"level":"info","message":"Removing seth","timestamp":"2017-12-05T03:09:48.048Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:11:53.441Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:11:53.442Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:11:56.898Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:12:02.507Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:12:05.726Z"}
+{"level":"info","message":"Removing Lydia.Terry","timestamp":"2017-12-05T03:12:05.728Z"}
+{"level":"info","message":"Processing data: @listr\r\n","timestamp":"2017-12-05T03:12:08.332Z"}
+{"level":"info","message":"Removing Weston37","timestamp":"2017-12-05T03:12:08.332Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:12:10.240Z"}
+{"level":"info","message":"Removing Weston37","timestamp":"2017-12-05T03:12:10.240Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:12:28.722Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:12:31.668Z"}
+{"level":"info","message":"Removing Cierra92","timestamp":"2017-12-05T03:12:31.669Z"}
+{"level":"info","message":"Processing data: @lis\r\n","timestamp":"2017-12-05T03:12:39.922Z"}
+{"level":"info","message":"Removing Lydia.Terry","timestamp":"2017-12-05T03:12:39.922Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:12:41.567Z"}
+{"level":"info","message":"Removing Lydia.Terry","timestamp":"2017-12-05T03:12:41.568Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:12:45.544Z"}
+{"level":"info","message":"Removing Weston37","timestamp":"2017-12-05T03:12:45.544Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:14:51.550Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:14:51.551Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:14:58.764Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:15:02.186Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:15:04.145Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:15:06.268Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:15:13.744Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:15:21.356Z"}
+{"level":"info","message":"Processing data: @nickname seth\r\n","timestamp":"2017-12-05T03:15:33.368Z"}
+{"level":"info","message":"Processing data: @dm seth WHY!\r\n","timestamp":"2017-12-05T03:15:40.581Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:15:47.247Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:15:50.292Z"}
+{"level":"info","message":"Removing Lourdes.Turcotte72","timestamp":"2017-12-05T03:15:50.299Z"}
