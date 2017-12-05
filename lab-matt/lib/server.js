@@ -38,7 +38,7 @@ let parseCommand = (message, socket) => {
         if (commandInput) {
           let nameExists = clientPool.some((each) => {
             return (each.name.toLowerCase() === commandInput.toLowerCase());
-          })
+          });
 
           if (nameExists) {
             return socket.write(`name: ${commandInput} has already been taken\n`);
@@ -82,7 +82,7 @@ let parseCommand = (message, socket) => {
   }
   // mattL - return false if the orginal message did not start with '@'
   return false;
-}
+};
 
 // ============== CONNECTION HANDLING ====================
 
