@@ -18,7 +18,7 @@ class Client {
     this.id = faker.random.uuid();
     this.name = faker.internet.userName();
     this.socket = socket;
-    clients.push(clients);
+    clients.push(this);
   }
 }
 
@@ -74,11 +74,14 @@ let parseCommand = (message, socket) => {
 
 app.on('connection', (socket) => {
   new Client(socket);
-  // socket.name = faker.internet.userName();
-  // clients.push(socket);
+  let name;
+  clients.forEach(client => {
+    if (client.socket === socket)
+      name = client.name;
+  });
   logger.log('info', `New socket`);
   socket.write('Welcome to 401d19 chatroom\n');
-  socket.write(`Your name is ${socket.name}\n`);
+  socket.write(`Your name is ${name}\n`);
 
 
   socket.on('data', (data) => {
@@ -97,11 +100,6 @@ app.on('connection', (socket) => {
   let removeClient = (socket) => () => {
     clients = clients.filter((client) => {
       return client.socket !== socket;
-    });
-    let name;
-    clients.forEach(client => {
-      if (client.socket === socket)
-        name = client.name;
     });
     logger.log('info',`Removing ${name}`);
   };
