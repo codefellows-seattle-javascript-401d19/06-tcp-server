@@ -124,3 +124,10 @@
 {"level":"info","message":"New socket","timestamp":"2017-12-05T01:03:34.044Z"}
 {"level":"info","message":"Processing data: @nickname\r\n","timestamp":"2017-12-05T01:03:37.493Z"}
 {"level":"info","message":"@nickname","timestamp":"2017-12-05T01:03:37.494Z"}
+{"level":"info","message":"Removing Mireille59","timestamp":"2017-12-05T01:05:09.938Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:05:15.838Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:05:15.839Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:05:17.680Z"}
+{"level":"info","message":"Processing data: @nickname awesome\r\n","timestamp":"2017-12-05T01:05:22.414Z"}
+{"level":"info","message":"New name is awesome","timestamp":"2017-12-05T01:05:22.415Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T01:05:25.629Z"}
