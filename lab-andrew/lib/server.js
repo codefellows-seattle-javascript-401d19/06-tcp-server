@@ -16,8 +16,9 @@ logger.log('info','Hello world!');
 class Client {
   constructor(socket){
     this.id = faker.random.uuid();
-    this.nickname = faker.internet.userName();
+    this.name = faker.internet.userName();
     this.socket = socket;
+    clients.push(clients);
   }
 }
 
@@ -73,8 +74,8 @@ let parseCommand = (message, socket) => {
 
 app.on('connection', (socket) => {
   new Client(socket);
-  socket.name = faker.internet.userName();
-  clients.push(socket);
+  // socket.name = faker.internet.userName();
+  // clients.push(socket);
   logger.log('info', `New socket`);
   socket.write('Welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${socket.name}\n`);
@@ -84,20 +85,25 @@ app.on('connection', (socket) => {
     logger.log('info', `Processing data: ${data}`);
     let message = data.toString().trim();
 
-    if(parseCommand(message,socket))
+    if(parseCommand(message, socket))
       return;
 
     for(let client of clients){
-      if(client !== socket)
-        client.write(`${socket.name}: ${message}\n`);
+      if(client.socket !== socket)
+        client.socket.write(`${client.name}: ${message}\n`);
     }
   });
 
   let removeClient = (socket) => () => {
     clients = clients.filter((client) => {
-      return client !== socket;
+      return client.socket !== socket;
     });
-    logger.log('info',`Removing ${socket.name}`);
+    let name;
+    clients.forEach(client => {
+      if (client.socket === socket)
+        name = client.name;
+    });
+    logger.log('info',`Removing ${name}`);
   };
   socket.on('error', removeClient(socket));
   socket.on('close', removeClient(socket));
