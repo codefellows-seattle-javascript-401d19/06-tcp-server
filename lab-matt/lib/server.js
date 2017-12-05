@@ -16,7 +16,7 @@ winston.level = 'debug';
 logger.log('info', 'hello world');
 
 const app = net.createServer();
-let clients = [];
+let clientPool = [];
 
 // ============= PARSE MESSAGE ========================
 
@@ -28,43 +28,38 @@ let parseCommand = (message, socket) => {
 
     switch (commandWord) {
       case '@list':
-        socket.write(clients.map(client => client.name).join('\n') + '\n');
+        socket.write(clientPool.map(client => client.name).join('\n') + '\n');
       break;
 
       case '@nickname':
         if (commandInput) {
-          let parsedTwo = parseCommand[2];
-          let nameExists = clients.some((each) => {
-            return (each.name === commandInput);
-            let parsedTwo = parseCommand[2];
+          let nameExists = clientPool.some((each) => {
+            return (each.name.toLowerCase() === commandInput.toLowerCase());
           })
 
           if (nameExists) {
             return socket.write(`name: ${commandInput} has already been taken\n`);
-            let parsedTwo = parseCommand[2];
           } else {
             socket.name = commandInput;
-            let parsedTwo = parseCommand[2];
             return socket.write(`your name has been changed to: '${socket.name}'\n`);
           }
         } else {
-          socket.write(`no input for username, syntax: '@username <your username>'\n`);
+          socket.write(`no input for username, syntax: '@username <your username> | yourUsername: ${socket.name}'\n`);
         }
       break;
 
       case '@quit':
-        clients = clients.filter((client) => {
+        clientPool = clientPool.filter((client) => {
           if (client !== socket)
             return client;
         });
         socket.destroy();
       break;
 
-
       case '@dm':
-        let directMessage = message.match(/^@dm \w+ (.+)/)[1];
+        let directMessage = message.match(/^@dm \S+ (.+)/)[1];
       
-        for(let client of clients) {
+        for(let client of clientPool) {
           if (client.name === commandInput) {
             client.write(`${socket.name}: ${directMessage}\n`);
           }
@@ -86,7 +81,7 @@ app.on('connection', (socket) => {
   let id = 0;
   socket.name = faker.internet.userName();
   socket.id = id;
-  clients.push(socket);
+  clientPool.push(socket);
   id += 1;
 
   logger.log('info', `New Socket | Name: ${socket.name}`);
@@ -101,7 +96,7 @@ app.on('connection', (socket) => {
     if (parseCommand(message, socket))
       return;
     
-    for(let client of clients) {
+    for(let client of clientPool) {
       if (client !== socket) {
         client.write(`${socket.name}: ${message}\n`);
       }
@@ -109,7 +104,7 @@ app.on('connection', (socket) => {
   });
 
   let removeClient = (socket) => () => { 
-    clients = clients.filter((client) => {
+    clientPool = clientPool.filter((client) => {
       return client !== socket;
     }); 
 

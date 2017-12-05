@@ -1,6 +1,14 @@
 'use strict';
 
+const server = require('./lib/server');
+const PORT = process.env.PORT;
 
+server.start(PORT, () => {
+
+});
+
+
+// `logger` ------------------------------------------------------------
 // const winston = require('winston');
 
 
@@ -14,14 +22,6 @@
 
 // winston.level = 'debug';
 // logger.log('info', 'hello world');
-
-
-const server = require('./lib/server');
-const PORT = process.env.PORT;
-
-server.start(PORT, () => {
-
-});
 
 
 // `events` ------------------------------------------------------------
