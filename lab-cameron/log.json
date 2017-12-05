@@ -779,3 +779,283 @@
 {"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:26:08.876Z"}
 {"level":"info","message":"Hello world!","timestamp":"2017-12-05T06:26:31.933Z"}
 {"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T06:26:31.934Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:27:23.917Z"}
+{"level":"info","message":"Waldo.Durgan has connected under id 5b0743d0-d985-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:27:23.917Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:27:31.323Z"}
+{"level":"info","message":"Keira_Crona50 has connected under id 5f7154b0-d985-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:27:31.323Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:27:38.875Z"}
+{"level":"info","message":"Gene47 has connected under id 63f1acb0-d985-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:27:38.876Z"}
+{"level":"info","message":"Processing data: hello\r\n","timestamp":"2017-12-05T06:27:48.399Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T06:27:53.953Z"}
+{"level":"info","message":"Waldo.Durgan is now cameron","timestamp":"2017-12-05T06:27:53.954Z"}
+{"level":"info","message":"Processing data: @dm Waldo.Durgan what are you doing later?\r\n","timestamp":"2017-12-05T06:28:09.057Z"}
+{"level":"info","message":"cameron has dm'd Waldo.Durgan\n","timestamp":"2017-12-05T06:28:09.058Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T06:28:39.987Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T06:28:40.148Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T06:28:40.336Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T06:28:41.367Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:28:44.963Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:28:47.755Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:29:32.311Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:29:46.212Z"}
+{"level":"info","message":"Sid46 has connected under id afd7c240-d985-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:29:46.212Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:29:46.213Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:29:46.213Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:29:49.151Z"}
+{"level":"info","message":"Daniela_Lindgren has connected under id b19836f0-d985-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:29:49.152Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:29:49.152Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:29:49.152Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:29:51.140Z"}
+{"level":"info","message":"Burdette_Auer56 has connected under id b2c7b640-d985-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:29:51.140Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:29:51.141Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:29:51.141Z"}
+{"level":"info","message":"Processing data: hello\r\n","timestamp":"2017-12-05T06:29:53.469Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:29:53.469Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:29:53.469Z"}
+{"level":"info","message":"Processing data: sup\r\n","timestamp":"2017-12-05T06:29:59.944Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:29:59.944Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:29:59.944Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:14.292Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:14.293Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:14.293Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:14.682Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:14.682Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:30:14.682Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:15.078Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:15.078Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:15.078Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:15.363Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:15.364Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:30:15.364Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:15.721Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:15.721Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:15.721Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:21.627Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:21.627Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:30:21.627Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:22.130Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:22.130Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:22.131Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:22.740Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:22.740Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:30:22.740Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:23.305Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:23.306Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:23.306Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:23.746Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:23.746Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:30:23.746Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:25.508Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:25.508Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:25.509Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:26.013Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:26.013Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:30:26.013Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:27.719Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:27.719Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:27.719Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:28.281Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:28.281Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:30:28.281Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:30:29.997Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:30:29.997Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:30:29.997Z"}
+{"level":"info","message":"Processing data: @dm Daniela_Lindgren hey\r\n","timestamp":"2017-12-05T06:30:44.247Z"}
+{"level":"info","message":"Sid46 has dm'd Daniela_Lindgren\n","timestamp":"2017-12-05T06:30:44.248Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T06:31:10.727Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:31:10.728Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:31:10.728Z"}
+{"level":"info","message":"Removing Sid46","timestamp":"2017-12-05T06:31:13.197Z"}
+{"level":"info","message":"Removing Daniela_Lindgren","timestamp":"2017-12-05T06:31:15.884Z"}
+{"level":"info","message":"Removing Burdette_Auer56","timestamp":"2017-12-05T06:31:18.018Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:33:34.638Z"}
+{"level":"info","message":"Stephan_Auer89 has connected under id 37fecce0-d986-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:33:34.639Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:34.639Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:33:34.639Z"}
+{"level":"info","message":"Removing Daniela_Lindgren","timestamp":"2017-12-05T06:33:34.639Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:33:36.417Z"}
+{"level":"info","message":"Bennett13 has connected under id 390e4110-d986-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:33:36.417Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:36.417Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:33:36.417Z"}
+{"level":"info","message":"Removing Burdette_Auer56","timestamp":"2017-12-05T06:33:36.418Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:33:37.895Z"}
+{"level":"info","message":"Kelli10 has connected under id 39efc770-d986-11e7-a977-1d928463c074","timestamp":"2017-12-05T06:33:37.895Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:37.895Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:33:37.895Z"}
+{"level":"info","message":"Removing Daniela_Lindgren","timestamp":"2017-12-05T06:33:37.895Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:33:39.766Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:39.766Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:33:39.767Z"}
+{"level":"info","message":"Removing Burdette_Auer56","timestamp":"2017-12-05T06:33:39.767Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:33:42.236Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:42.236Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:33:42.237Z"}
+{"level":"info","message":"Removing Daniela_Lindgren","timestamp":"2017-12-05T06:33:42.237Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:33:46.756Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:46.757Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:33:46.757Z"}
+{"level":"info","message":"Removing Burdette_Auer56","timestamp":"2017-12-05T06:33:46.757Z"}
+{"level":"info","message":"Processing data: hola\r\n","timestamp":"2017-12-05T06:33:52.308Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:52.309Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:33:52.309Z"}
+{"level":"info","message":"Removing Daniela_Lindgren","timestamp":"2017-12-05T06:33:52.309Z"}
+{"level":"info","message":"Processing data: hola\r\n","timestamp":"2017-12-05T06:33:55.131Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:55.131Z"}
+{"level":"info","message":"Removing Gene47","timestamp":"2017-12-05T06:33:55.132Z"}
+{"level":"info","message":"Removing Burdette_Auer56","timestamp":"2017-12-05T06:33:55.132Z"}
+{"level":"info","message":"Processing data: hola\r\n","timestamp":"2017-12-05T06:33:57.806Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:33:57.807Z"}
+{"level":"info","message":"Removing Keira_Crona50","timestamp":"2017-12-05T06:33:57.808Z"}
+{"level":"info","message":"Removing Daniela_Lindgren","timestamp":"2017-12-05T06:33:57.808Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T06:35:36.542Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T06:35:36.544Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:35:41.646Z"}
+{"level":"info","message":"Cleora_Stoltenberg89 has connected under id 83b2aee0-d986-11e7-b67f-67f2a8b7a899","timestamp":"2017-12-05T06:35:41.647Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:35:43.614Z"}
+{"level":"info","message":"Jean.Hills has connected under id 84ded2d0-d986-11e7-b67f-67f2a8b7a899","timestamp":"2017-12-05T06:35:43.614Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:35:46.328Z"}
+{"level":"info","message":"Alexandrea43 has connected under id 867d1980-d986-11e7-b67f-67f2a8b7a899","timestamp":"2017-12-05T06:35:46.328Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:35:49.270Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:36:03.751Z"}
+{"level":"info","message":"Processing data: what's going on?\r\n","timestamp":"2017-12-05T06:36:10.749Z"}
+{"level":"info","message":"Processing data: chillin\r\n","timestamp":"2017-12-05T06:36:16.012Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T06:36:20.446Z"}
+{"level":"info","message":"Alexandrea43 is now cameron","timestamp":"2017-12-05T06:36:20.448Z"}
+{"level":"info","message":"Processing data: now i'm cameron\r\n","timestamp":"2017-12-05T06:36:25.994Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T06:36:35.056Z"}
+{"level":"info","message":"Jean.Hills is now cameron","timestamp":"2017-12-05T06:36:35.057Z"}
+{"level":"info","message":"Processing data: @nickname Alexandrea43\r\n","timestamp":"2017-12-05T06:36:44.172Z"}
+{"level":"info","message":"Jean.Hills is now Alexandrea43","timestamp":"2017-12-05T06:36:44.172Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T06:37:05.702Z"}
+{"level":"info","message":"Processing data: what\r\n","timestamp":"2017-12-05T06:37:14.702Z"}
+{"level":"info","message":"Processing data: whatr\r\n","timestamp":"2017-12-05T06:37:19.407Z"}
+{"level":"info","message":"Processing data: what\r\n","timestamp":"2017-12-05T06:37:24.096Z"}
+{"level":"info","message":"Processing data: what\r\n","timestamp":"2017-12-05T06:37:26.304Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T06:37:29.436Z"}
+{"level":"info","message":"Processing data: s\r\n","timestamp":"2017-12-05T06:37:35.863Z"}
+{"level":"info","message":"Processing data: s\r\n","timestamp":"2017-12-05T06:37:39.983Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T06:38:00.368Z"}
+{"level":"info","message":"Cleora_Stoltenberg89 has left the chatroom","timestamp":"2017-12-05T06:38:00.368Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:00.373Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T06:38:02.637Z"}
+{"level":"info","message":"Alexandrea43 has left the chatroom","timestamp":"2017-12-05T06:38:02.637Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:02.638Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T06:38:04.993Z"}
+{"level":"info","message":"cameron has left the chatroom","timestamp":"2017-12-05T06:38:04.993Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:04.994Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:38:04.997Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:38:12.698Z"}
+{"level":"info","message":"Eldora_Moen has connected under id ddbb63a0-d986-11e7-b67f-67f2a8b7a899","timestamp":"2017-12-05T06:38:12.698Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:12.698Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:12.698Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:38:14.650Z"}
+{"level":"info","message":"Hermann.Hamill7 has connected under id dee53da0-d986-11e7-b67f-67f2a8b7a899","timestamp":"2017-12-05T06:38:14.650Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:14.650Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:38:14.650Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:38:16.516Z"}
+{"level":"info","message":"Alec.Kessler55 has connected under id e001f840-d986-11e7-b67f-67f2a8b7a899","timestamp":"2017-12-05T06:38:16.516Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:16.516Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:16.517Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:38:20.062Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:20.062Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:38:20.062Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T06:38:29.372Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T06:38:42.171Z"}
+{"level":"info","message":"Eldora_Moen has left the chatroom","timestamp":"2017-12-05T06:38:42.172Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:42.172Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:42.172Z"}
+{"level":"info","message":"Removing Eldora_Moen","timestamp":"2017-12-05T06:38:42.173Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:38:46.963Z"}
+{"level":"info","message":"Hope72 has connected under id f227d030-d986-11e7-b67f-67f2a8b7a899","timestamp":"2017-12-05T06:38:46.963Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:46.964Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:38:46.964Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:38:48.588Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:48.589Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:48.589Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:38:49.529Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:49.529Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:38:49.529Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:38:49.742Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:49.742Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:49.742Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:38:49.956Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:49.956Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:38:49.956Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:38:50.174Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:50.174Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:50.174Z"}
+{"level":"info","message":"Processing data: a\r\n","timestamp":"2017-12-05T06:38:50.394Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:50.395Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:38:50.395Z"}
+{"level":"info","message":"Processing data: wtf\r\n","timestamp":"2017-12-05T06:38:53.231Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:38:53.232Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:38:53.232Z"}
+{"level":"info","message":"Processing data: asdasd\r\n","timestamp":"2017-12-05T06:39:09.221Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:39:09.221Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:39:09.221Z"}
+{"level":"info","message":"Processing data: asdas\r\n","timestamp":"2017-12-05T06:39:12.108Z"}
+{"level":"info","message":"Removing Cleora_Stoltenberg89","timestamp":"2017-12-05T06:39:12.109Z"}
+{"level":"info","message":"Removing Alexandrea43","timestamp":"2017-12-05T06:39:12.109Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T06:39:28.711Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T06:39:28.712Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:39:39.068Z"}
+{"level":"info","message":"Silas76 has connected under id 113667c0-d987-11e7-85ed-a3c6e6963520","timestamp":"2017-12-05T06:39:39.069Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:39:44.228Z"}
+{"level":"info","message":"Mallory_Gutmann has connected under id 1449c240-d987-11e7-85ed-a3c6e6963520","timestamp":"2017-12-05T06:39:44.228Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:39:47.544Z"}
+{"level":"info","message":"Alfred_Brown has connected under id 16439670-d987-11e7-85ed-a3c6e6963520","timestamp":"2017-12-05T06:39:47.544Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:39:49.877Z"}
+{"level":"info","message":"Processing data: what's up\r\n","timestamp":"2017-12-05T06:39:53.914Z"}
+{"level":"info","message":"Processing data: hey hey\r\n","timestamp":"2017-12-05T06:39:59.589Z"}
+{"level":"info","message":"Processing data: @nickname Mallory_Gutmann\r\n","timestamp":"2017-12-05T06:40:11.836Z"}
+{"level":"info","message":"Silas76 is now Mallory_Gutmann","timestamp":"2017-12-05T06:40:11.837Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T06:40:16.226Z"}
+{"level":"info","message":"Silas76 is now cameron","timestamp":"2017-12-05T06:40:16.226Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T06:40:20.968Z"}
+{"level":"info","message":"Mallory_Gutmann is now cameron","timestamp":"2017-12-05T06:40:20.968Z"}
+{"level":"info","message":"Processing data: @nickname Silas76\r\n","timestamp":"2017-12-05T06:40:27.602Z"}
+{"level":"info","message":"Mallory_Gutmann is now Silas76","timestamp":"2017-12-05T06:40:27.602Z"}
+{"level":"info","message":"Processing data: hey hey\r\n","timestamp":"2017-12-05T06:40:39.852Z"}
+{"level":"info","message":"Processing data: Wait what that was my name\r\n","timestamp":"2017-12-05T06:40:48.290Z"}
+{"level":"info","message":"Processing data: mine now\r\n","timestamp":"2017-12-05T06:40:51.968Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T06:40:56.098Z"}
+{"level":"info","message":"cameron has left the chatroom","timestamp":"2017-12-05T06:40:56.099Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:40:56.106Z"}
+{"level":"info","message":"Processing data: hahah he left\r\n","timestamp":"2017-12-05T06:41:01.775Z"}
+{"level":"info","message":"Processing data: bc I took his name\r\n","timestamp":"2017-12-05T06:41:05.518Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T06:41:11.290Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:41:16.613Z"}
+{"level":"info","message":"Herman_Kirlin has connected under id 4b5a9750-d987-11e7-85ed-a3c6e6963520","timestamp":"2017-12-05T06:41:16.613Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T06:41:30.422Z"}
+{"level":"info","message":"Herman_Kirlin is now cameron","timestamp":"2017-12-05T06:41:30.422Z"}
+{"level":"info","message":"Processing data: @dm Silas76 that was my name wtf\r\n","timestamp":"2017-12-05T06:41:48.453Z"}
+{"level":"info","message":"cameron has dm'd Silas76\n","timestamp":"2017-12-05T06:41:48.454Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T06:42:03.511Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T06:42:03.665Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:42:05.838Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T06:42:21.135Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T06:42:21.137Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:42:22.853Z"}
+{"level":"info","message":"Katharina.Runolfsson has connected under id 72d5dc40-d987-11e7-bbe4-ff2b92faba19","timestamp":"2017-12-05T06:42:22.853Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:42:24.787Z"}
+{"level":"info","message":"Camden_Wyman24 has connected under id 73fd1e30-d987-11e7-bbe4-ff2b92faba19","timestamp":"2017-12-05T06:42:24.787Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T06:42:26.461Z"}
+{"level":"info","message":"Owen4 has connected under id 74fc8cd0-d987-11e7-bbe4-ff2b92faba19","timestamp":"2017-12-05T06:42:26.461Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T06:42:30.410Z"}
+{"level":"info","message":"Katharina.Runolfsson is now cameron","timestamp":"2017-12-05T06:42:30.412Z"}
+{"level":"info","message":"Processing data: hey\r\n","timestamp":"2017-12-05T06:42:33.710Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T06:42:35.907Z"}
+{"level":"info","message":"Processing data: @dm Owen4 sup\r\n","timestamp":"2017-12-05T06:42:41.995Z"}
+{"level":"info","message":"cameron has dm'd Owen4\n","timestamp":"2017-12-05T06:42:41.996Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T06:42:49.104Z"}
+{"level":"info","message":"Owen4 has dm'd cameron\n","timestamp":"2017-12-05T06:42:49.104Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T06:43:04.388Z"}
+{"level":"info","message":"cameron has left the chatroom","timestamp":"2017-12-05T06:43:04.389Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:43:04.393Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T06:43:07.039Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T06:43:09.060Z"}
+{"level":"info","message":"Camden_Wyman24 has left the chatroom","timestamp":"2017-12-05T06:43:09.060Z"}
+{"level":"info","message":"Removing Camden_Wyman24","timestamp":"2017-12-05T06:43:09.061Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T06:43:11.409Z"}
+{"level":"info","message":"Processing data: ...\r\n","timestamp":"2017-12-05T06:43:15.858Z"}
+{"level":"info","message":"Removing cameron","timestamp":"2017-12-05T06:43:15.858Z"}
