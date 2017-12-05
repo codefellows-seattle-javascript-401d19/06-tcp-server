@@ -1,0 +1,77 @@
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:16:48.105Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:16:48.106Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:25:22.749Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:25:22.751Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:25:24.615Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:25:26.785Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:25:29.217Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T01:25:41.763Z"}
+{"level":"info","message":"Processing data: @dm covfefe hey I saw you were on the chat room!\r\n","timestamp":"2017-12-05T01:26:01.809Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T01:26:23.086Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T01:26:48.695Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T01:28:50.080Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T01:28:50.766Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T01:29:45.192Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T01:29:45.194Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:29:48.351Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:30:12.222Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T01:30:15.050Z"}
+{"level":"info","message":"Processing data: @dm snoopy Hey snoopy who is this this is a new phone\r\n","timestamp":"2017-12-05T01:30:42.693Z"}
+{"level":"info","message":"Processing data: ����\u0006","timestamp":"2017-12-05T02:04:29.552Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:35:00.556Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:35:00.558Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:35:07.134Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:35:25.266Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:35:27.704Z"}
+{"level":"info","message":"Processing data: Hi I'm Wesley\r\n","timestamp":"2017-12-05T02:35:50.239Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:37:36.598Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:37:36.600Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:37:39.004Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:37:42.196Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:37:44.367Z"}
+{"level":"info","message":"Processing data: Hey I'm Deshawn!\r\n","timestamp":"2017-12-05T02:38:02.261Z"}
+{"level":"info","message":"Processing data: Yo yo its xander\r\n","timestamp":"2017-12-05T02:38:29.580Z"}
+{"level":"info","message":"Processing data: Hey guys :)\r\n","timestamp":"2017-12-05T02:38:40.819Z"}
+{"level":"info","message":"Processing data: @dm Xander12 hey, I'm not sure about Deshawn\r\n","timestamp":"2017-12-05T02:39:31.940Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:40:25.687Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:40:25.689Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:40:28.495Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:40:30.599Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:40:33.037Z"}
+{"level":"info","message":"Processing data: Hi, I'm Dev\r\n","timestamp":"2017-12-05T02:40:39.738Z"}
+{"level":"info","message":"Processing data: Hey Dev, I am super Manley\r\n","timestamp":"2017-12-05T02:40:48.447Z"}
+{"level":"info","message":"Processing data: Hi. Arnaldo Here\r\n","timestamp":"2017-12-05T02:41:05.385Z"}
+{"level":"info","message":"Processing data: @name Dev\r\n","timestamp":"2017-12-05T02:41:30.185Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:41:34.032Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:41:40.050Z"}
+{"level":"info","message":"Processing data: I updated my username folks!\r\n","timestamp":"2017-12-05T02:41:50.800Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:43:30.594Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:43:30.596Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:43:32.274Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:43:34.684Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:43:36.726Z"}
+{"level":"info","message":"Processing data: @name Pete\r\n","timestamp":"2017-12-05T02:43:44.836Z"}
+{"level":"info","message":"Processing data: Hey!\r\n","timestamp":"2017-12-05T02:43:48.577Z"}
+{"level":"info","message":"Processing data: Hi\r\n","timestamp":"2017-12-05T02:43:58.519Z"}
+{"level":"info","message":"Processing data: @name Carol\r\n","timestamp":"2017-12-05T02:44:10.399Z"}
+{"level":"info","message":"Processing data: actually I go by Carol\r\n","timestamp":"2017-12-05T02:44:20.025Z"}
+{"level":"info","message":"Processing data: @dm Carol hey carol\r\n","timestamp":"2017-12-05T02:44:42.637Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:44:58.245Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:57:30.105Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:57:30.107Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:57:33.310Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:57:35.314Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T02:57:37.013Z"}
+{"level":"info","message":"Processing data: k sup\r\n","timestamp":"2017-12-05T02:57:52.536Z"}
+{"level":"info","message":"Processing data: @name Jeremy\r\n","timestamp":"2017-12-05T02:58:00.348Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:58:06.262Z"}
+{"level":"info","message":"Processing data: Hi\r\n","timestamp":"2017-12-05T02:58:11.407Z"}
+{"level":"info","message":"Processing data: @dm Jeremy Hi jeremy I don't like Hipolito\r\n","timestamp":"2017-12-05T02:58:26.556Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T02:58:41.714Z"}
+{"level":"info","message":"Removing Jeremy","timestamp":"2017-12-05T02:58:41.718Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T02:58:49.730Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T07:40:01.819Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T07:40:01.823Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T07:40:11.054Z"}
+{"level":"info","message":"Removing Gerson_Davis","timestamp":"2017-12-05T07:41:25.858Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T07:45:04.445Z"}
