@@ -18,21 +18,16 @@ app.on('connection', socket => {
   let currentClient = new Client(socket);
   
   logger.log('info', `New client connected! Name: ${currentClient.name}, id: ${currentClient.id}`);
-  socket.write(`\nWelcome to the ${chatRoomName} chat room!\n\n`);
+  socket.write(`\nWelcome to the ${chatRoomName} chat room!\n`);
   socket.write(`\nYour chat name is: ${currentClient.name}.\n\n`);
 
   socket.on('data', data => {
     data = data.toString().trim();
     logger.log('info', `${currentClient.name} typed: ${data}`);
-    
-    if(data.startsWith('@'))
-      currentClient.parseCommand(data);
-    else {
-      currentClient.socket.write('\n');
-      currentClient.otherClients()
-        .forEach(client => client.socket.write(`\n${currentClient.name}: ${data}\n\n`));
-    }
+
+    currentClient.handleInput(data);
   });
+
   let removeClient = currentClient.removeClient.bind(currentClient);
   socket.on('error', removeClient);
   socket.on('close', removeClient);

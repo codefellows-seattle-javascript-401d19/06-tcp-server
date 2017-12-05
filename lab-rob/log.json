@@ -148,3 +148,70 @@
 {"level":"info","message":"New client connected! Name: Malcolm36, id: e9765a96-8abd-4e4d-9c16-82d5c4392162","timestamp":"2017-12-05T05:55:07.251Z"}
 {"level":"info","message":"Malcolm36 typed: @list","timestamp":"2017-12-05T05:55:11.762Z"}
 {"level":"info","message":"Lucius.Jones typed: @list","timestamp":"2017-12-05T05:55:17.795Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T05:59:19.830Z"}
+{"level":"info","message":"New client connected! Name: Elfrieda.Dooley40, id: 6edc8eb9-9b6a-4031-8c3c-8e8a114552c6","timestamp":"2017-12-05T05:59:24.026Z"}
+{"level":"info","message":"New client connected! Name: Cheyenne83, id: ddcf363c-fb5f-4144-8637-08610acae15e","timestamp":"2017-12-05T05:59:28.091Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:05:06.044Z"}
+{"level":"info","message":"New client connected! Name: Caleb.Schulist68, id: a56ff709-e514-47f8-9983-b90e6d47ac98","timestamp":"2017-12-05T06:05:09.394Z"}
+{"level":"info","message":"New client connected! Name: Morris_Douglas, id: f075ab1c-5402-403e-8eda-506c2400b4a1","timestamp":"2017-12-05T06:05:12.912Z"}
+{"level":"info","message":"Morris_Douglas typed: @list","timestamp":"2017-12-05T06:05:29.115Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:11:53.674Z"}
+{"level":"info","message":"New client connected! Name: Effie28, id: f97f369f-0eca-436c-b4fa-4c3bf2445076","timestamp":"2017-12-05T06:11:58.875Z"}
+{"level":"info","message":"New client connected! Name: Deshaun.Rolfson, id: f19b410b-0f09-4d15-a8d4-c3dda1e0499a","timestamp":"2017-12-05T06:12:03.710Z"}
+{"level":"info","message":"Effie28 typed: @quit","timestamp":"2017-12-05T06:12:26.305Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:15:10.896Z"}
+{"level":"info","message":"New client connected! Name: Ines_Sipes, id: 4dd74009-5453-4506-8bfd-bc9f55488698","timestamp":"2017-12-05T06:15:13.640Z"}
+{"level":"info","message":"New client connected! Name: Bernard_Hartmann92, id: 5834a622-a948-4fc9-ba21-8331ffa48001","timestamp":"2017-12-05T06:15:17.068Z"}
+{"level":"info","message":"Bernard_Hartmann92 typed: @quit","timestamp":"2017-12-05T06:15:23.250Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:17:42.651Z"}
+{"level":"info","message":"New client connected! Name: Vinnie_Kutch, id: 056b3978-13ed-49ea-af08-22fcca5122e2","timestamp":"2017-12-05T06:17:46.217Z"}
+{"level":"info","message":"Vinnie_Kutch typed: @quit","timestamp":"2017-12-05T06:17:49.082Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:32:02.688Z"}
+{"level":"info","message":"New client connected! Name: Marianna.Auer, id: e8fe4a1c-cc12-4230-8f7a-743a88029a31","timestamp":"2017-12-05T06:32:05.926Z"}
+{"level":"info","message":"Marianna.Auer typed: @quit","timestamp":"2017-12-05T06:32:07.982Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:32:42.474Z"}
+{"level":"info","message":"New client connected! Name: Laurine_Weber, id: ee57353e-ee82-4165-a5d3-50bfc7c26a7b","timestamp":"2017-12-05T06:32:46.209Z"}
+{"level":"info","message":"Laurine_Weber typed: @quit","timestamp":"2017-12-05T06:32:48.410Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:35:28.295Z"}
+{"level":"info","message":"New client connected! Name: Brian11, id: 1082a93c-3a29-4065-9f80-8a272435606d","timestamp":"2017-12-05T06:35:44.568Z"}
+{"level":"info","message":"Brian11 typed: @quit","timestamp":"2017-12-05T06:35:48.391Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:36:52.939Z"}
+{"level":"info","message":"New client connected! Name: Mina.Wiegand, id: 79e0479b-f5a1-411d-ab35-71c67f9cf582","timestamp":"2017-12-05T06:36:54.616Z"}
+{"level":"info","message":"Mina.Wiegand typed: @quit","timestamp":"2017-12-05T06:36:56.817Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:37:31.558Z"}
+{"level":"info","message":"New client connected! Name: Leatha_Mayer7, id: 02eec487-5b35-44e6-a102-bb3debe6d0b7","timestamp":"2017-12-05T06:37:34.000Z"}
+{"level":"info","message":"New client connected! Name: Lacey9, id: 8557817e-ec62-46ea-909e-25e936f4ad3a","timestamp":"2017-12-05T06:37:37.243Z"}
+{"level":"info","message":"Leatha_Mayer7 typed: @quit","timestamp":"2017-12-05T06:37:56.357Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:44:32.880Z"}
+{"level":"info","message":"New client connected! Name: Lambert.Kirlin, id: 70bf6632-f890-4261-9684-927e36c55c13","timestamp":"2017-12-05T06:44:35.278Z"}
+{"level":"info","message":"New client connected! Name: Raphaelle94, id: 1cf8ff67-20d6-4f7d-8e5a-ba12186895a4","timestamp":"2017-12-05T06:44:37.242Z"}
+{"level":"info","message":"Raphaelle94 typed: @quit","timestamp":"2017-12-05T06:44:38.798Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:45:21.269Z"}
+{"level":"info","message":"New client connected! Name: Bonita63, id: b66e0112-fd10-4a0c-b591-4a11fa4eea8f","timestamp":"2017-12-05T06:45:23.285Z"}
+{"level":"info","message":"New client connected! Name: Esteban_Kuphal, id: 73b5f1bd-9d4f-474c-9f1d-89812446fb0c","timestamp":"2017-12-05T06:45:25.848Z"}
+{"level":"info","message":"Esteban_Kuphal typed: @quit","timestamp":"2017-12-05T06:45:29.220Z"}
+{"level":"info","message":"Bonita63 typed: @list","timestamp":"2017-12-05T06:45:51.239Z"}
+{"level":"info","message":"New client connected! Name: Savion.Considine93, id: 724408d0-783f-4dbe-baa3-e648be6702b2","timestamp":"2017-12-05T06:46:47.270Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:48:03.219Z"}
+{"level":"info","message":"New client connected! Name: Lexi_OConnell81, id: 29fa0ebf-3855-4735-9728-4dc17cb35879","timestamp":"2017-12-05T06:48:05.926Z"}
+{"level":"info","message":"New client connected! Name: Aron_Gutmann, id: 2eedbc6e-c52b-4fac-94cc-9721eccabb05","timestamp":"2017-12-05T06:48:08.415Z"}
+{"level":"info","message":"Aron_Gutmann typed: @quit","timestamp":"2017-12-05T06:48:10.400Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:48:51.676Z"}
+{"level":"info","message":"New client connected! Name: Deshawn_Ullrich69, id: 2fc40d72-6bb0-4e62-a928-0b418a79b778","timestamp":"2017-12-05T06:48:53.744Z"}
+{"level":"info","message":"New client connected! Name: Gloria32, id: 9102baed-2839-49e0-bb08-9f16b6e930c3","timestamp":"2017-12-05T06:48:54.979Z"}
+{"level":"info","message":"Gloria32 typed: @quit","timestamp":"2017-12-05T06:48:56.866Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:49:21.562Z"}
+{"level":"info","message":"New client connected! Name: Shania.Dibbert, id: 11db5110-5e3f-4dd6-a018-2a9af421b393","timestamp":"2017-12-05T06:49:22.978Z"}
+{"level":"info","message":"New client connected! Name: Antone.Hudson, id: e0542ebb-3a40-407a-a4ed-046b783fe6f5","timestamp":"2017-12-05T06:49:24.805Z"}
+{"level":"info","message":"Antone.Hudson typed: @quit","timestamp":"2017-12-05T06:49:27.214Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:49:49.834Z"}
+{"level":"info","message":"New client connected! Name: Juanita.Turner84, id: ce8d1384-ad47-4e05-b888-5099b8bc177c","timestamp":"2017-12-05T06:49:50.952Z"}
+{"level":"info","message":"New client connected! Name: Jaren15, id: 558253d8-7c67-413d-84a2-64d08e419dec","timestamp":"2017-12-05T06:49:54.296Z"}
+{"level":"info","message":"Jaren15 typed: @quit","timestamp":"2017-12-05T06:49:57.977Z"}
+{"level":"info","message":"Juanita.Turner84 typed: @list","timestamp":"2017-12-05T06:50:06.095Z"}
+{"level":"info","message":"New client connected! Name: Kaycee.Kuhic, id: cecd129b-d95e-4cd0-88c6-e89197341091","timestamp":"2017-12-05T06:50:09.792Z"}
+{"level":"info","message":"Juanita.Turner84 typed: @list","timestamp":"2017-12-05T06:50:14.751Z"}
+{"level":"info","message":"Juanita.Turner84 typed: hi!","timestamp":"2017-12-05T06:50:24.025Z"}
+{"level":"info","message":"Kaycee.Kuhic typed: hey!","timestamp":"2017-12-05T06:50:27.768Z"}
+{"level":"info","message":"Juanita.Turner84 typed: sup?","timestamp":"2017-12-05T06:50:34.665Z"}
+{"level":"info","message":"Kaycee.Kuhic typed: not too much","timestamp":"2017-12-05T06:51:04.985Z"}

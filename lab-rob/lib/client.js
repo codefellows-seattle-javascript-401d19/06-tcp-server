@@ -20,6 +20,19 @@ class Client {
       .forEach(client => client.socket.write(`\n${this.name} has joined the chat room.\n\n`));
   }
 
+  speak(message) {
+    this.socket.write('\n');
+    this.otherClients()
+      .forEach(client => client.socket.write(`\n${this.name}: ${message}\n\n`));
+  }
+
+  handleInput(data) {
+    if (data.startsWith('@'))
+      this.parseCommand(data);
+    else
+      this.speak(data);
+  }
+
   changeName(newName) {
     if (nameIsUnique(newName)) {
       this.name = newName;
@@ -36,15 +49,22 @@ class Client {
     let parsedCommand = command.split(' ');
     let commandWord = parsedCommand[0];
     switch (commandWord) {
-    case '@list':
-      if (this.otherClients().length > 0)
-        this.socket.write('\n' + this.otherClients().map(client => client.name).join('\n') + '\n');
-      else
-        this.socket.write('\nYou are the only person in the chat room.\n\n');
-      break;
-    default:
-      this.socket.write(`\nValid commands: @list\n\n`);
+      case '@list':
+        this.list();
+        break;
+      case '@quit':
+        this.socket.end('\nCome back soon!\n\n');
+        break;
+      default:
+        this.socket.write(`\nValid commands: @list\n\n`);
     }
+  }
+
+  list() {
+    if (this.otherClients().length > 0)
+      this.socket.write('\nCurent Chatters:\n\n' + this.otherClients().map(client => client.name).join('\n') + '\n\n');
+    else
+      this.socket.write('\nYou are the only person in the chat room.\n\n');
   }
 
   removeClient() {
