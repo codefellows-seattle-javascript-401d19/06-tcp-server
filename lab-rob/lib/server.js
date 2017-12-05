@@ -30,8 +30,14 @@ app.on('connection', socket => {
   });
 
   let removeClient = currentClient.removeClient.bind(currentClient);
-  socket.on('error', removeClient);
   socket.on('close', removeClient);
+
+  let handleError = error => {
+    logger.log('info', `Error: ${JSON.stringify(error)}`);
+    removeClient();
+  };
+
+  socket.on('error', handleError);
 });
 
 const server = module.exports = {};
