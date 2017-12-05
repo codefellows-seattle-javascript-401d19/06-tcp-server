@@ -3,7 +3,11 @@
 const net = require('net');
 const faker = require('faker');
 const winston = require('winston');
+const app = net.createServer();
 
+let clientPool = [];
+
+// ========== WINSTON =============
 let logger = new (winston.Logger)({
   transports: [
     new (winston.transports.Console)(),
@@ -11,12 +15,7 @@ let logger = new (winston.Logger)({
   ],
 });
 
-
-winston.level = 'debug';
 logger.log('info', 'hello world');
-
-const app = net.createServer();
-let clientPool = [];
 
 // ============= PARSE MESSAGE ========================
 
