@@ -10,6 +10,8 @@ Standard
 
 # Screenshots
 
+~[alt text]()
+
 # Tech/framework used
 
 ### Build with:
