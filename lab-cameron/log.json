@@ -333,3 +333,61 @@
 {"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:04:15.091Z"}
 {"level":"info","message":"Net socket","timestamp":"2017-12-05T03:04:17.037Z"}
 {"level":"info","message":"Net socket","timestamp":"2017-12-05T03:04:20.258Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:13:35.454Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:13:35.455Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:13:37.270Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:13:38.466Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:17:24.565Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:17:24.566Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:17:26.803Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:17:28.000Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:17:47.889Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:17:47.891Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:17:49.035Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:17:49.815Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:17:54.462Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:18:32.764Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:18:32.765Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:18:33.541Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:18:34.825Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:18:37.890Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:19:45.974Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:19:45.975Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:19:47.304Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:19:50.343Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:19:54.074Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:20:12.494Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:20:12.496Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:20:14.732Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:20:16.518Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:21:12.593Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:21:12.595Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:21:13.588Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:21:17.269Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:21:33.511Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:21:33.512Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:21:34.517Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:21:36.794Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:23:13.463Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:23:13.465Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:23:14.378Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:23:18.092Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:23:37.063Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:23:37.064Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:23:38.088Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:23:41.135Z"}
+{"level":"info","message":"Madyson62 has left the chatroom","timestamp":"2017-12-05T03:23:41.137Z"}
+{"level":"info","message":"Removing Madyson62","timestamp":"2017-12-05T03:23:41.142Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:24:16.330Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:24:16.332Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:24:17.292Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:24:19.110Z"}
+{"level":"info","message":"Processing data: hi\r\n","timestamp":"2017-12-05T03:24:20.684Z"}
+{"level":"info","message":"Processing data: hello\r\n","timestamp":"2017-12-05T03:24:30.572Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:24:34.025Z"}
+{"level":"info","message":"Effie86 has left the chatroom","timestamp":"2017-12-05T03:24:34.026Z"}
+{"level":"info","message":"Removing Effie86","timestamp":"2017-12-05T03:24:34.029Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:24:40.228Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:24:43.968Z"}
+{"level":"info","message":"Precious_Lynch21 has left the chatroom","timestamp":"2017-12-05T03:24:43.968Z"}
+{"level":"info","message":"Removing Precious_Lynch21","timestamp":"2017-12-05T03:24:43.970Z"}

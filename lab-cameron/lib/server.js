@@ -15,9 +15,9 @@ logger.log('info', 'Hello world!');
 const app = net.createServer();
 let clients = [];
 
-const parseCommand = (userInput, socket) => {
-  if (userInput.startsWith('@')) {
-    const parsedCommand = userInput.split(' ');
+const parseCommand = (socket, message) => {
+  if (message.input.startsWith('@')) {
+    const parsedCommand = message.input.split(' ');
     const commandWord = parsedCommand[0];
 
     switch (commandWord) {
@@ -44,22 +44,34 @@ const removeClient = socket => () => {
 };
 
 const quitChatroom = socket => {
-  socket.write('You have left the chatroom');
+  socket.write('You have left the chatroom\n');
   socket.end();
-  
-  const userInput = {
+
+  const message = {
     type: 'exit',
     input: `${socket.name} has left the chatroom`,
   };
 
-  broadcast(socket, userInput);
+  broadcast(socket, message);
   logger.log('info', `${socket.name} has left the chatroom`);
 };
 
 const broadcast = (socket, message) => {
   for (let client of clients) {
     if (client !== socket) {
-      client.write(`${socket.name}: ${message}\n`);
+      switch (message.type) {
+      case 'enter':
+        client.write(`${message.input}\n`);
+        break;
+      case 'exit':
+        client.write(`${message.input}\n`);
+        break;
+      case 'chat':
+        client.write(`${socket.name}: ${message.input}\n`);
+        break;
+      default:
+        break;
+      }
     }
   }
 };
@@ -68,21 +80,30 @@ app.on('connection', socket => {
   socket.name = faker.internet.userName();
   clients.push(socket);
   logger.log('info', 'Net socket');
+
   socket.write('Welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${socket.name}\n`);
 
+  const message = {
+    type: 'enter',
+    input: `${socket.name} has entered the chatroom`,
+  };
+
+  broadcast(socket, message);
+
   socket.on('data', data => {
     logger.log('info', `Processing data: ${data}`);
-    const userInput = {
-      type: 'message',
+
+    const message = {
+      type: 'chat',
       input: data.toString().trim(),
     };
 
-    if (parseCommand(userInput, socket)) {
+    if (parseCommand(socket, message)) {
       return;
     }
 
-    broadcast(socket, userInput);
+    broadcast(socket, message);
   });
 
 
