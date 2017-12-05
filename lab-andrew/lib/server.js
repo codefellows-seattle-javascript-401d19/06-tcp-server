@@ -56,7 +56,7 @@ let parseCommand = (message, socket) => {
       if (!(clientNames.includes(parsedCommand[1]))){
         for(let client of clients){
           if(client.socket === socket){
-            client.write(`${parsedCommand[1]} is not a valid user.\n`);
+            client.socket.write(`${parsedCommand[1]} is not a valid user.\n`);
           }
         }
         break;
@@ -64,7 +64,7 @@ let parseCommand = (message, socket) => {
       clients.forEach(client => {
         if (client.name === parsedCommand[1]){
           let dm = parsedCommand.slice(2).join(' ');
-          client.write(`DM from ${name}: ${dm}\n`);
+          client.socket.write(`DM from ${name}: ${dm}\n`);
         }
       });
       break;
@@ -90,6 +90,10 @@ app.on('connection', (socket) => {
 
 
   socket.on('data', (data) => {
+    clients.forEach(client => {
+      if (client.socket === socket)
+        name = client.name;
+    });
     logger.log('info', `Processing data: ${data}`);
     let message = data.toString().trim();
 
@@ -98,7 +102,7 @@ app.on('connection', (socket) => {
 
     for(let client of clients){
       if(client.socket !== socket)
-        client.socket.write(`${client.name}: ${message}\n`);
+        client.socket.write(`${name}: ${message}\n`);
     }
   });
 
