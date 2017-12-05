@@ -36,8 +36,13 @@ let parseCommand = (message,socket) =>{
       var parsedName = parsedCommand[1];
       socket.write(socket.name = parsedName);
       break;  
+    case'@dm': // sending a dm to a person
+      var dmRecipient = parsedCommand[1];
+      var dmMessage = parsedCommand[2];
+      socket.write(dmMessage);
+    
     default:
-      socket.write('Valid commands: \n @list\n @quit (not working yet)\n @nickname <new-name>\n');
+      socket.write('Valid commands: \n @list\n @quit (not working yet)\n @nickname <new-name>\n @dm <to-username> <message>');
       break;
     }
     return true;
