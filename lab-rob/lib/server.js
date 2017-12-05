@@ -3,37 +3,10 @@
 const net = require('net');
 const winston = require('winston');
 const faker = require('faker');
+const Client = require('./client');
 const app = net.createServer();
 
-let clients = [];
 const chatRoomName = faker.company.catchPhrase();
-
-class Client {
-  constructor(socket) {
-    this.socket = socket;
-    this.id = faker.random.uuid();
-    
-    do {
-      this.name = faker.internet.userName();
-    } while (!nameIsUnique(this.name));
-
-    clients.push(this);
-  }
-
-  changeName(newName) {
-    if(nameIsUnique(newName)) {
-      this.name = newName;
-      return true;
-    } else
-      return false;
-  }
-
-}
-
-let nameIsUnique = name => {
-  return !clients.map(client => client.name)
-    .includes(name);
-};
 
 let logger = new (winston.Logger)({
   transports: [
@@ -45,46 +18,38 @@ app.on('connection', socket => {
   let currentClient = new Client(socket);
   
   logger.log('info', `New client connected! Name: ${currentClient.name}, id: ${currentClient.id}`);
-  socket.write(`\nWelcome to the ${chatRoomName} chat room!\n`);
+  socket.write(`\nWelcome to the ${chatRoomName} chat room!\n\n`);
+  socket.write(`\nYour chat name is: ${currentClient.name}.\n\n`);
 
-  for(let client of clients) {
-    if(client.socket !== socket)
-      client.socket.write(`\n${currentClient.name} has joined the chat room.\n`);
-    else 
-      client.socket.write(`\nYour chat name is: ${currentClient.name}.\n`);
-  }
+  currentClient.otherClients()
+    .forEach(client => client.socket.write(`\n${currentClient.name} has joined the chat room.\n\n`));
 
   socket.on('data', data => {
+    data = data.toString().trim();
     logger.log('info', `${currentClient.name} typed: ${data}`);
-    for(let client of clients) {
-      if(client.socket !== socket)
-        client.socket.write(`${client.name}: ${data}`);
+    
+    if(data.startsWith('@'))
+      currentClient.parseCommand(data);
+    else {
+      currentClient.socket.write('\n');
+      currentClient.otherClients()
+        .forEach(client => client.socket.write(`\n${currentClient.name}: ${data}\n\n`));
     }
-    // put other client logic here, parsedCommands?
   });
-
-  let removeClient = socket => () => {
-    clients = clients.filter(client => {
-      for(let client of clients) {
-        if(client.socket !== socket)
-          client.socket.write(`${currentClient.name} has left the chat.`);
-      }
-      return client.socket !== socket;
-    });
-  };
-
-  socket.on('error', removeClient(socket));
-  socket.on('close', removeClient(socket));
+  let removeClient = currentClient.removeClient.bind(currentClient);
+  socket.on('error', removeClient);
+  socket.on('close', removeClient);
 });
 
 const server = module.exports = {};
+
 server.start = (port, callback) => {
   logger.log('info', `Server is running on port ${port}.`);
-  console.log(`Server is running on port ${port}.`);
+  console.log(`\nServer is running on port ${port}.\n`);
   return app.listen(port, callback);
 };
 
 server.stop = callback => {
-  logger.log('info', 'Server shutting down.');
+  logger.log('info', '\nServer shutting down.\n');
   return app.close(callback);
 };
