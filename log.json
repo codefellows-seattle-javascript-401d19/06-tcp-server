@@ -217,3 +217,78 @@
 {"level":"info","message":"Hello, world.","timestamp":"2017-12-05T03:17:32.251Z"}
 {"level":"info","message":"New socket at d5d4affa-f44f-464f-9fe5-5cdc47ba5a72","timestamp":"2017-12-05T03:17:39.973Z"}
 {"level":"info","message":"New socket at 89a3bf1e-2bd7-4ec0-b424-0da0259f1a29","timestamp":"2017-12-05T03:17:42.230Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:35:26.340Z"}
+{"level":"info","message":"New socket at dcd1bc56-9c88-4864-aee4-5d91ec5f75f8","timestamp":"2017-12-05T04:35:29.842Z"}
+{"level":"info","message":"New socket at 6eb4240c-0a91-4649-b422-1a86334d0832","timestamp":"2017-12-05T04:35:31.740Z"}
+{"level":"info","message":"New socket at 9e141833-ce55-4367-959b-ec6121d70354","timestamp":"2017-12-05T04:35:34.069Z"}
+{"level":"info","message":"Processing data: @dm Larry43 yoooo\r\n","timestamp":"2017-12-05T04:35:44.764Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T04:37:24.960Z"}
+{"level":"info","message":"Processing data: @dm Larry43 yoooo\r\n","timestamp":"2017-12-05T04:37:30.510Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:37:50.109Z"}
+{"level":"info","message":"New socket at 5ca51668-ccb6-4212-865a-bd045b6acf78","timestamp":"2017-12-05T04:37:51.297Z"}
+{"level":"info","message":"Processing data: @dm Jewell43 yoooo\r\n","timestamp":"2017-12-05T04:37:58.794Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:38:39.383Z"}
+{"level":"info","message":"New socket at b287b91c-45f0-4168-8ef3-8f6f4796dc9b","timestamp":"2017-12-05T04:38:41.634Z"}
+{"level":"info","message":"Processing data: @dm Carley yoooo\r\n","timestamp":"2017-12-05T04:38:49.247Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T04:38:51.652Z"}
+{"level":"info","message":"Processing data: @nickname Carley\r\n","timestamp":"2017-12-05T04:38:59.172Z"}
+{"level":"info","message":"New socket at 6ee32644-9676-4f05-841d-f05b22186a77","timestamp":"2017-12-05T04:39:41.515Z"}
+{"level":"info","message":"Processing data: @dm Carley yooo\r\n","timestamp":"2017-12-05T04:39:48.497Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T04:39:54.969Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:40:09.442Z"}
+{"level":"info","message":"New socket at 87c94afd-c077-4e1f-8ae4-d0dd04c8dec9","timestamp":"2017-12-05T04:40:11.546Z"}
+{"level":"info","message":"New socket at 2d3ba378-f040-4c06-af00-6484325e8673","timestamp":"2017-12-05T04:40:14.111Z"}
+{"level":"info","message":"Processing data: @dm Sydnee78 yooo\r\n","timestamp":"2017-12-05T04:40:22.730Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:41:36.307Z"}
+{"level":"info","message":"New socket at 6b10c9ef-7864-4c8a-b171-241ad67b555d","timestamp":"2017-12-05T04:41:39.084Z"}
+{"level":"info","message":"Processing data: @dm Kelley yooo\r\n","timestamp":"2017-12-05T04:41:44.368Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:43:54.460Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:44:11.754Z"}
+{"level":"info","message":"New socket at d67af0dc-9484-4454-a457-98f4cbfbe1c3","timestamp":"2017-12-05T04:44:14.058Z"}
+{"level":"info","message":"New socket at cfaebaa3-0c82-49f6-9cbe-0103807ae449","timestamp":"2017-12-05T04:44:15.234Z"}
+{"level":"info","message":"Processing data: @dm Mallory\r\n","timestamp":"2017-12-05T04:44:26.365Z"}
+{"level":"info","message":"Processing data: @dm Mallory\r\n","timestamp":"2017-12-05T04:45:35.151Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:46:01.024Z"}
+{"level":"info","message":"New socket at e65cd2fe-395b-406a-a055-f0f8c296c957","timestamp":"2017-12-05T04:46:03.767Z"}
+{"level":"info","message":"Processing data: @dm Holden\r\n","timestamp":"2017-12-05T04:46:07.775Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:47:18.624Z"}
+{"level":"info","message":"New socket at cfc0feaa-a07f-4d79-9af0-aa9f0dbec8a5","timestamp":"2017-12-05T04:47:21.635Z"}
+{"level":"info","message":"New socket at 08f65e67-6ecc-4ffc-a4ef-86bd3b585d33","timestamp":"2017-12-05T04:47:25.892Z"}
+{"level":"info","message":"Processing data: @dm Creola\r\n","timestamp":"2017-12-05T04:47:30.097Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:48:33.094Z"}
+{"level":"info","message":"New socket at 925e4da5-9099-4fce-9a39-7cf31751fcc8","timestamp":"2017-12-05T04:48:35.741Z"}
+{"level":"info","message":"Processing data: @dm Lavada yooo\r\n","timestamp":"2017-12-05T04:48:40.301Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:49:53.686Z"}
+{"level":"info","message":"New socket at b8414d1e-05fc-4d6d-837c-71fcda003a2c","timestamp":"2017-12-05T04:49:56.230Z"}
+{"level":"info","message":"Processing data: @dm Christina\r\n","timestamp":"2017-12-05T04:49:59.376Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:50:14.772Z"}
+{"level":"info","message":"New socket at 9abc5953-91d0-4014-ae64-ecbc3fa69628","timestamp":"2017-12-05T04:50:17.163Z"}
+{"level":"info","message":"Processing data: @dm Jewel\r\n","timestamp":"2017-12-05T04:50:20.370Z"}
+{"level":"info","message":"New socket at 2d5f8912-6081-46ee-9f92-c51d5df7592b","timestamp":"2017-12-05T04:50:30.639Z"}
+{"level":"info","message":"Processing data: @dm Jewel23 yoooo\r\n","timestamp":"2017-12-05T04:50:40.298Z"}
+{"level":"info","message":"Processing data: console.log(clients)\r\n","timestamp":"2017-12-05T04:51:25.584Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:52:00.061Z"}
+{"level":"info","message":"New socket at 75626569-9db5-4131-ae85-81d7b488be3b","timestamp":"2017-12-05T04:52:15.558Z"}
+{"level":"info","message":"New socket at 57d1ad36-e154-454d-8974-ef70e1ed8029","timestamp":"2017-12-05T04:52:18.726Z"}
+{"level":"info","message":"Processing data: @dm Lance_Kohler yoooo\r\n","timestamp":"2017-12-05T04:52:26.303Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:55:04.038Z"}
+{"level":"info","message":"New socket at 427780fa-2d2a-400c-ad22-8af838cf7e85","timestamp":"2017-12-05T04:55:06.114Z"}
+{"level":"info","message":"New socket at ad69fae8-3e7e-41b9-acfe-a1e8623bf46e","timestamp":"2017-12-05T04:55:07.949Z"}
+{"level":"info","message":"Processing data: @dm Frieda3 yoooo\r\n","timestamp":"2017-12-05T04:55:22.585Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T04:56:32.851Z"}
+{"level":"info","message":"New socket at 758a16af-a37e-4497-885a-0ef350fba98f","timestamp":"2017-12-05T04:56:35.144Z"}
+{"level":"info","message":"New socket at d83c1cb8-1b13-433f-9a65-044b4be4294a","timestamp":"2017-12-05T04:56:37.369Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T04:56:42.680Z"}
+{"level":"info","message":"Processing data: @dm Lula.Hauck yoooo\r\n","timestamp":"2017-12-05T04:56:48.796Z"}
+{"level":"info","message":"Processing data: @dm Lula yoooo\r\n","timestamp":"2017-12-05T04:56:56.725Z"}
+{"level":"info","message":"Processing data: @dm Lula yoooo\r\n","timestamp":"2017-12-05T05:08:48.698Z"}
+{"level":"info","message":"Processing data: @dm Lula\r\n","timestamp":"2017-12-05T05:09:19.230Z"}
+{"level":"info","message":"Processing data: @dm Lula\r\n","timestamp":"2017-12-05T05:09:53.453Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T05:10:10.599Z"}
+{"level":"info","message":"New socket at 4f8eef91-e572-4c9f-a744-c5b8b73b9253","timestamp":"2017-12-05T05:10:12.303Z"}
+{"level":"info","message":"Processing data: @dm Tamia\r\n","timestamp":"2017-12-05T05:10:17.380Z"}
+{"level":"info","message":"Hello, world.","timestamp":"2017-12-05T05:11:10.346Z"}
+{"level":"info","message":"New socket at 4aa298d9-761d-43db-b804-161a0bd69ed4","timestamp":"2017-12-05T05:11:13.264Z"}
+{"level":"info","message":"Processing data: @dm ross yooo\r\n","timestamp":"2017-12-05T05:11:18.977Z"}
+{"level":"info","message":"New socket at cf4fec57-4a74-4d45-b1ae-c6aa3d937a74","timestamp":"2017-12-05T05:11:24.993Z"}
+{"level":"info","message":"Processing data: @dm Jett20 yooo\r\n","timestamp":"2017-12-05T05:11:32.450Z"}
