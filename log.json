@@ -36,3 +36,16 @@
 {"level":"info","message":"Processing data: @nickname rudolf\r\n","timestamp":"2017-12-05T00:35:51.692Z"}
 {"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T00:35:52.960Z"}
 {"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T00:35:55.367Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T00:38:22.423Z"}
+{"level":"info","message":"Processing data: @nickname lincoln\r\n","timestamp":"2017-12-05T00:38:30.034Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T00:38:32.801Z"}
+{"level":"info","message":"Processing data: @nickname whatevs\r\n","timestamp":"2017-12-05T00:38:48.096Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T00:38:49.585Z"}
+{"level":"info","message":"Processing data: @nickname thing2\r\n","timestamp":"2017-12-05T00:39:12.900Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T00:39:24.041Z"}
+{"level":"info","message":"Removing thing2","timestamp":"2017-12-05T00:39:39.452Z"}
+{"level":"info","message":"Removing rudolf","timestamp":"2017-12-05T00:39:44.814Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T00:40:00.229Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T00:40:00.230Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-05T00:40:04.324Z"}
+{"level":"info","message":"Processing data: @nickname joffrey\r\n","timestamp":"2017-12-05T00:40:11.531Z"}
