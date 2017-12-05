@@ -120,7 +120,7 @@ const directMessage = (socket, clients, recipient, dmessage) => {
 
   for (let client of clients) {
     if (client.name === recipient) {
-      client.write(`${socket.name}: ${dmessage}\n`);
+      client.write(`${socket.name} (dm): ${dmessage}\n`);
       return;
     }
     console.log(`client: ${client.name}, ${recipient}`);
