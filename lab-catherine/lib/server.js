@@ -45,6 +45,11 @@ let parseCommand = (message,socket) => {
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
     case '@quit':
+      clients.forEach((client, index) => {
+        if(client.socket === socket) {
+          clients.splice(index, 1);
+        }
+      });
       socket.end(`See you next time ${name}!\n`);
       break;
     case '@name':

@@ -155,3 +155,17 @@
 {"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:49:44.318Z"}
 {"level":"info","message":"Hello world!","timestamp":"2017-12-05T02:50:20.576Z"}
 {"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T02:50:20.577Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T02:57:33.575Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:00:58.207Z"}
+{"level":"info","message":"Removing Adella51","timestamp":"2017-12-05T03:00:58.210Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T03:01:09.167Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T03:01:09.168Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:01:13.606Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T03:01:33.802Z"}
+{"level":"info","message":"Processing data: @name jamie\r\n","timestamp":"2017-12-05T03:01:40.304Z"}
+{"level":"info","message":"Processing data: @name cc\r\n","timestamp":"2017-12-05T03:01:51.723Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:01:54.462Z"}
+{"level":"info","message":"Processing data: @dm jamie hey!\r\n","timestamp":"2017-12-05T03:02:03.122Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T03:02:13.133Z"}
+{"level":"info","message":"Removing cc","timestamp":"2017-12-05T03:02:13.136Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T03:02:17.724Z"}
