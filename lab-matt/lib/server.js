@@ -24,11 +24,32 @@ let parseCommand = (message, socket) => {
   if (message.startsWith('@')) {
     let parseCommand = message.split(' ');
     let commandWord = parseCommand[0];
-    let commandPrompt = parseCommand[1];
+    let commandInput = parseCommand[1];
 
     switch (commandWord) {
       case '@list':
         socket.write(clients.map(client => client.name).join('\n') + '\n');
+      break;
+
+      case '@nickname':
+        if (commandInput) {
+          let parsedTwo = parseCommand[2];
+          let nameExists = clients.some((each) => {
+            return (each.name === commandInput);
+            let parsedTwo = parseCommand[2];
+          })
+
+          if (nameExists) {
+            return socket.write(`name: ${commandInput} has already been taken\n`);
+            let parsedTwo = parseCommand[2];
+          } else {
+            socket.name = commandInput;
+            let parsedTwo = parseCommand[2];
+            return socket.write(`your name has been changed to: '${socket.name}'\n`);
+          }
+        } else {
+          socket.write(`no input for username, syntax: '@username <your username>'\n`);
+        }
       break;
 
       case '@quit':
@@ -39,20 +60,14 @@ let parseCommand = (message, socket) => {
         socket.destroy();
       break;
 
-      case '@nickname':
-        if (commandPrompt) {
-          let nameExists = clients.some((each) => {
-            return (each.name === commandPrompt);
-          })
 
-          if (nameExists) {
-            return socket.write(`name: ${commandPrompt} has already been taken\n`);
-          } else {
-            socket.name = commandPrompt;
-            return socket.write(`your name has been changed to: '${socket.name}'\n`);
+      case '@dm':
+        let directMessage = message.match(/^@dm \w+ (.+)/)[1];
+      
+        for(let client of clients) {
+          if (client.name === commandInput) {
+            client.write(`${socket.name}: ${directMessage}\n`);
           }
-        } else {
-          socket.write(`no input for username, syntax: '@username <your username>'\n`);
         }
       break;
 
@@ -68,8 +83,11 @@ let parseCommand = (message, socket) => {
 // ============== CONNECTION HANDLING ====================
 
 app.on('connection', (socket) => {
+  let id = 0;
   socket.name = faker.internet.userName();
+  socket.id = id;
   clients.push(socket);
+  id += 1;
 
   logger.log('info', `New Socket | Name: ${socket.name}`);
   socket.write('Welcome to 401d19 chatroom\n');
@@ -95,7 +113,7 @@ app.on('connection', (socket) => {
       return client !== socket;
     }); 
 
-    logger.log('info', 'removing ${socket.name}');
+    logger.log('info', `removing ${socket.name}`);
   };
   
   socket.on('error', () => {
