@@ -25,7 +25,7 @@ A basic TCP server that allows multiple users to connect and send messages to ea
 
 ## Tests
 
-Run `npm test`.
+N/A
 
 ## How to use?
 
@@ -42,6 +42,8 @@ You are now in the chat room and can chat it up!
 ### Commands
 
 1. Type a message to send it to the other users.
+
+1. Type `@me` to see your username.
 
 1. Type `@quit` to disconnect from the server.
 
