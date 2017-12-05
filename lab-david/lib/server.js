@@ -28,11 +28,16 @@ let parseCommand = (message,socket) =>{
     case'@list':// vinicio - if(commandWord === '@list')
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
+    case'@quit':
+      socket.write(`goodbye ${socket.name}..` + '\n');
+      removeClient(`${socket.name}`);
+      break;
     default:
-      socket.write('Valid commands: @list\n');
+      socket.write('Valid commands: \n @list\n @quit (not working yet)\n');
       break;
     }
     return true;
+    
   }
   return false;
 };
