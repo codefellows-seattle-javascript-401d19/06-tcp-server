@@ -1,0 +1,19 @@
+{
+  "name": "lab-matt",
+  "version": "1.0.0",
+  "description": "06-tcp-server code fellows lab",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew LeBlanc",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^4.1.0",
+    "net": "^1.0.2",
+    "winston": "^2.4.0"
+  }
+}
