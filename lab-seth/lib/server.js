@@ -11,15 +11,9 @@ let logger = new (winston.Logger)({
 });
 
 logger.log('info','Hello world!');
-// winston.level = 'debug';
-// winston.log('debug','Hello world!');
 // ------------------------------------------------------
-
 const app = net.createServer();
 let clients = [];
-
-
-//TODO write function to sen dmessages to everyone but current socket/user
 // ------------------------------------------------------
 
 let parseCommand = (message, socket) =>{
@@ -30,20 +24,21 @@ let parseCommand = (message, socket) =>{
     let commandArgument2 = parsedCommand.slice(2).join(' ').trim();
 
     switch(commandWord){
-    case'@list':// seth - if(commandWord === '@list')
+    case'@list':
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
-    case'@quit':// seth - if(commandWord === '@quit')
-      socket.end();//(clients.map(client => client.name).join('\n') + '\n');
+    case'@quit':
+      socket.end();
       break;
-    case'@nickname':// seth - if(commandWord === '@nickname')
-      // if(!commandArgument1){
-      //   socket.write('You must enter something after @nickname \n');
-      // }else{
-      socket.write(`Your new name is: ${commandArgument1} \n`);
-      for (let client of clients) { //vinicio - instead of doing clients[client] I can use directly client
-        if (client !== socket)
-          client.write(`${socket.name} has changed their name to ${commandArgument1} \n`);
+    case'@nickname':
+      if(!commandArgument1){
+        socket.write('You must enter something after @nickname \n');
+      }else{
+        socket.write(`Your new name is: ${commandArgument1} \n`);
+        for (let client of clients) { //vinicio - instead of doing clients[client] I can use directly client
+          if (client !== socket)
+            client.write(`${socket.name} has changed their name to ${commandArgument1} \n`);
+        }
       }
       socket.name = commandArgument1;
       break;
@@ -71,7 +66,6 @@ let parseCommand = (message, socket) =>{
 };
 
 app.on('connection', (socket) => {
-  // console.log('new socket created: ', socket);
   socket.name = faker.internet.userName();
   socket.id = faker.random.uuid();
 
@@ -107,7 +101,6 @@ app.on('connection', (socket) => {
   };
   socket.on('close', removeClient(socket)); //only removes client/socket from clients array
   socket.on('error', removeClient(socket));
-  // socket.on('data', removeClient(socket));
 });
 
 const server = module.exports = {};
