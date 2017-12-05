@@ -43,18 +43,20 @@ let parseCommand = (message,socket) =>{
 
     case'@dm':
 
+      let dmMessageParsed = parsedCommand.slice(2).join(' ');
       let names = clients.map(client => client.name);
+
       if(!names.includes(parsedCommand[1]))
         socket.write(`${parsedCommand[1]} is not one of the chat members, please pick another member.`);
+
       if(!dmMessage)
         socket.write(`${name}, you have to type your message after typing chat member's name`);
 
-      clients.forEach(client =>  {
-        if(client.name === parseCommand[1]) {
-          let dmMessageParsed = parsedCommand.slice(2).join(' ');
-          client.write(`Direct message from ${socket.name}: ${dmMessageParsed}\n`);
-        };
-      });
+      for(let client of clients) {
+        if(client.name === parsedCommand[1])
+          client.write(`DM from ${socket.name}: ${dmMessageParsed}\n`);
+      };
+      socket.write(`Message sent to ${parsedCommand[1]}`);
       break;
 
     default:
