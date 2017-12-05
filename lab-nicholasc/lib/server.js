@@ -92,6 +92,8 @@ app.on('connection', (socket) => {
 const server  = module.exports = {};
 
 server.start = (port, callback) => {
+  if(typeof port !== 'number')
+    return callback('port must be a number', port);
   logger.log('info', `server is up`);
   console.log('info', `server is up`);
   callback(null, port);
