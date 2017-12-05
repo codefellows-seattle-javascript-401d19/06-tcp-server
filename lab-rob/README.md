@@ -15,7 +15,9 @@ A basic TCP server that allows multiple users to connect and send messages to ea
   - winston
   - net
 
-## Code Example
+## Modules
+
+`server.js` is the main bread and butter. It manages all connections and transfers between the client and the server. `client.js` exports a constructor function that is used in the server to instantiate new clients. It has many methods that help facilitate user features.
 
 ## Installation
 
@@ -23,17 +25,13 @@ A basic TCP server that allows multiple users to connect and send messages to ea
 1. `cd` into `lab-rob/` and run `npm install`.
 1. `touch .env` and add `PORT=3000`.
 
-## Tests
-
-N/A
-
 ## How to use?
 
 After installation, from `lab-rob/` run `npm start` to start the server. 
 
 From a different terminal window, use `telnet` to connect to the server. 
 
-If you don't have `telnet` on your computer, get it using homebrew.
+If you don't have `telnet` on your computer, get it using homebrew or similar.
 
 run `telnet 127.0.0.1 3000`.
 
@@ -55,7 +53,7 @@ You are now in the chat room and can chat it up!
 
 ## Contribute
 
-You can totally contribute to this project if you want. Fork the repo, make some cool changes and then submit a PR.
+You can totally contribute to this project if you want. Fork the repo, make some cool changes, and then submit a PR.
 
 ## Credits
 

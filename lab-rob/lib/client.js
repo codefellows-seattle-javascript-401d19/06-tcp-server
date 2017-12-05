@@ -11,7 +11,7 @@ class Client {
       this.name = faker.internet.userName();
     } while (!nameIsUnique(this.name));
 
-    Client.clients.push(this);
+    Client.clientPool.push(this);
     this.announcePresence();
   }
 
@@ -43,8 +43,8 @@ class Client {
   }
 
   sendDm(recipient, message) {
-    for(let i = 0; i < Client.clients.length; i++) {
-      let client = Client.clients[i];
+    for(let i = 0; i < Client.clientPool.length; i++) {
+      let client = Client.clientPool[i];
       if(client.name === recipient) {
         client.socket.write(`\nDM from ${this.name}: ${message}\n\n`);
         return;
@@ -58,7 +58,7 @@ class Client {
   }
 
   otherClients() {
-    return Client.clients.filter(client => client.name !== this.name);
+    return Client.clientPool.filter(client => client.name !== this.name);
   }
 
   parseCommand(command) {
@@ -101,17 +101,17 @@ class Client {
   removeClient() {
     this.otherClients()
       .forEach(client => client.socket.write(`\n${this.name} has left the chat room.\n\n`));
-    Client.clients = Client.clients.filter(client => {
+    Client.clientPool = Client.clientPool.filter(client => {
       return client.socket !== this.socket;
     });
   }
 
 }
 
-Client.clients = [];
+Client.clientPool = [];
 
 function nameIsUnique(name) {
-  return !Client.clients.map(client => client.name).includes(name);
+  return !Client.clientPool.map(client => client.name).includes(name);
 }
 
 module.exports = Client;
