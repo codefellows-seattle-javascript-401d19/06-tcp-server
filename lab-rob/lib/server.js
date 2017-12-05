@@ -21,9 +21,6 @@ app.on('connection', socket => {
   socket.write(`\nWelcome to the ${chatRoomName} chat room!\n\n`);
   socket.write(`\nYour chat name is: ${currentClient.name}.\n\n`);
 
-  currentClient.otherClients()
-    .forEach(client => client.socket.write(`\n${currentClient.name} has joined the chat room.\n\n`));
-
   socket.on('data', data => {
     data = data.toString().trim();
     logger.log('info', `${currentClient.name} typed: ${data}`);

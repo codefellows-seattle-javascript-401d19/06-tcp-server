@@ -12,6 +12,12 @@ class Client {
     } while (!nameIsUnique(this.name));
 
     Client.clients.push(this);
+    this.announcePresence();
+  }
+
+  announcePresence() {
+    this.otherClients()
+      .forEach(client => client.socket.write(`\n${this.name} has joined the chat room.\n\n`));
   }
 
   changeName(newName) {
