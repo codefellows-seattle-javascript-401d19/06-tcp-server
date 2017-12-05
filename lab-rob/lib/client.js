@@ -23,7 +23,7 @@ class Client {
   speak(message) {
     this.socket.write('\n');
     this.otherClients()
-      .forEach(client => client.socket.write(`\n${this.name}: ${message}\n\n`));
+      .forEach(client => client.socket.write(`\n@${this.name}: ${message}\n\n`));
   }
 
   handleInput(data) {
@@ -59,8 +59,10 @@ class Client {
       case '@nickname':
         if(!this.changeName(parsedCommand.slice(1).join(' ')))
           this.socket.write(`\nSorry, but the name ${parsedCommand.slice(1).join(' ')} is already taken.\n\n`);
-        else
-          this.otherClients().forEach(client => client.socket.write(`\n@${oldName} has changed their name to ${parsedCommand.slice(1).join(' ')}.\n\n`));
+        else {
+          this.otherClients().forEach(client => client.socket.write(`\n@${oldName} has changed their name to @${parsedCommand.slice(1).join(' ')}.\n\n`));
+          this.socket.write(`\nYour name has been changed to @${parsedCommand.slice(1).join(' ')}.\n\n`);
+        }
         break;
       default:
         this.socket.write(`\nValid commands: @list\n\n`);

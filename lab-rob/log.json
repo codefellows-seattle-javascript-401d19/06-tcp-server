@@ -216,3 +216,18 @@
 {"level":"info","message":"Juanita.Turner84 typed: sup?","timestamp":"2017-12-05T06:50:34.665Z"}
 {"level":"info","message":"Kaycee.Kuhic typed: not too much","timestamp":"2017-12-05T06:51:04.985Z"}
 {"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T06:59:14.223Z"}
+{"level":"info","message":"New client connected! Name: Mathilde_Cormier, id: de83aff5-272c-42f8-9443-6275b90f5d13","timestamp":"2017-12-05T06:59:20.084Z"}
+{"level":"info","message":"New client connected! Name: Gladys_Beahan80, id: 8e9553e5-035f-4c23-8e8b-e396e78a327f","timestamp":"2017-12-05T06:59:25.580Z"}
+{"level":"info","message":"Gladys_Beahan80 typed: @nickname newname","timestamp":"2017-12-05T06:59:47.155Z"}
+{"level":"info","message":"newname typed: hey there","timestamp":"2017-12-05T07:00:14.876Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T07:00:44.359Z"}
+{"level":"info","message":"New client connected! Name: Jeffry74, id: 1b964fcf-5448-41f9-8bc9-96ba4f2a73f8","timestamp":"2017-12-05T07:00:46.058Z"}
+{"level":"info","message":"New client connected! Name: Kaylie_Gibson99, id: 3b989797-e58f-4535-bbf5-2824bf737560","timestamp":"2017-12-05T07:00:47.493Z"}
+{"level":"info","message":"Kaylie_Gibson99 typed: @nickname kGibs","timestamp":"2017-12-05T07:00:58.706Z"}
+{"level":"info","message":"Jeffry74 typed: @nickname kGibs","timestamp":"2017-12-05T07:01:50.891Z"}
+{"level":"info","message":"Jeffry74 typed: hi","timestamp":"2017-12-05T07:01:58.052Z"}
+{"level":"info","message":"Server is running on port 3000.","timestamp":"2017-12-05T07:03:02.409Z"}
+{"level":"info","message":"New client connected! Name: Kimberly.Muller, id: b1987379-b455-4f3d-9992-297f8e915e46","timestamp":"2017-12-05T07:03:03.815Z"}
+{"level":"info","message":"Kimberly.Muller typed: @nickname myNewName","timestamp":"2017-12-05T07:03:15.989Z"}
+{"level":"info","message":"New client connected! Name: Brigitte.Thiel, id: aa5123e7-9360-42b1-8c7d-51bb33e51670","timestamp":"2017-12-05T07:03:23.005Z"}
+{"level":"info","message":"Brigitte.Thiel typed: @list","timestamp":"2017-12-05T07:03:26.978Z"}
