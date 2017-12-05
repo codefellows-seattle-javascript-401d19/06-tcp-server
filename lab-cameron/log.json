@@ -567,3 +567,133 @@
 {"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T04:51:25.468Z"}
 {"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T04:51:25.619Z"}
 {"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T04:51:30.304Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T04:53:09.533Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T04:53:09.534Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T04:53:11.512Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T04:53:12.573Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T04:53:15.011Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T04:53:18.571Z"}
+{"level":"info","message":"Ottilie33 has left the chatroom","timestamp":"2017-12-05T04:53:18.572Z"}
+{"level":"info","message":"Removing Ottilie33","timestamp":"2017-12-05T04:53:18.579Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T04:53:21.606Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-05T04:53:24.666Z"}
+{"level":"info","message":"Kurt44 has left the chatroom","timestamp":"2017-12-05T04:53:24.666Z"}
+{"level":"info","message":"Removing Kurt44","timestamp":"2017-12-05T04:53:24.668Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:04:22.999Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:04:23.000Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:04:25.057Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:04:26.263Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:04:31.618Z"}
+{"level":"info","message":"Zander_Weber21 is now cameron","timestamp":"2017-12-05T05:04:31.619Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:04:37.618Z"}
+{"level":"info","message":"Geoffrey20 is now aly","timestamp":"2017-12-05T05:04:37.618Z"}
+{"level":"info","message":"Processing data: @dm cameron hi\r\n","timestamp":"2017-12-05T05:04:43.570Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:05:09.560Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:05:09.562Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:05:11.025Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:05:12.186Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:05:17.168Z"}
+{"level":"info","message":"April_Daniel65 is now aly","timestamp":"2017-12-05T05:05:17.169Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:05:21.012Z"}
+{"level":"info","message":"Daryl_Morar is now cameron","timestamp":"2017-12-05T05:05:21.012Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T05:05:26.132Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:06:08.840Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:06:08.841Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:06:10.475Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:06:12.031Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:06:17.239Z"}
+{"level":"info","message":"Skylar_Stoltenberg61 is now aly","timestamp":"2017-12-05T05:06:17.241Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:06:22.124Z"}
+{"level":"info","message":"Viva.Casper57 is now cameron","timestamp":"2017-12-05T05:06:22.124Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T05:06:29.019Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T05:06:39.339Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:07:18.902Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:07:18.904Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:07:19.867Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:07:24.570Z"}
+{"level":"info","message":"Morton48 is now aly","timestamp":"2017-12-05T05:07:24.571Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:07:26.794Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:07:31.502Z"}
+{"level":"info","message":"Gudrun_Moen is now cameron","timestamp":"2017-12-05T05:07:31.502Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T05:07:49.726Z"}
+{"level":"info","message":"aly has dm'd cameron\n","timestamp":"2017-12-05T05:07:49.727Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:08:30.736Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:08:30.737Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:08:31.708Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:08:32.616Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:08:43.278Z"}
+{"level":"info","message":"Urban_Labadie23 is now aly","timestamp":"2017-12-05T05:08:43.279Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:08:46.782Z"}
+{"level":"info","message":"Zoey_Keeling is now cameron","timestamp":"2017-12-05T05:08:46.783Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T05:09:01.857Z"}
+{"level":"info","message":"aly has dm'd cameron\n","timestamp":"2017-12-05T05:09:01.858Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T05:09:05.487Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:09:55.730Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:09:55.732Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:09:56.881Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:09:58.354Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:10:02.409Z"}
+{"level":"info","message":"Greta_Langworth is now aly","timestamp":"2017-12-05T05:10:02.410Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:10:06.574Z"}
+{"level":"info","message":"Joany_Fadel15 is now cameron","timestamp":"2017-12-05T05:10:06.574Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T05:10:14.651Z"}
+{"level":"info","message":"aly has dm'd cameron\n","timestamp":"2017-12-05T05:10:14.652Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:11:33.818Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:11:33.820Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:11:34.715Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:11:35.430Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:11:40.765Z"}
+{"level":"info","message":"Lilliana_Watsica90 is now aly","timestamp":"2017-12-05T05:11:40.766Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:11:43.906Z"}
+{"level":"info","message":"Elisa_Heller is now cameron","timestamp":"2017-12-05T05:11:43.907Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T05:11:47.339Z"}
+{"level":"info","message":"aly has dm'd cameron\n","timestamp":"2017-12-05T05:11:47.340Z"}
+{"level":"info","message":"Processing data: \r\n","timestamp":"2017-12-05T05:11:53.199Z"}
+{"level":"info","message":"Processing data: @dm aly hey\r\n","timestamp":"2017-12-05T05:12:17.379Z"}
+{"level":"info","message":"aly has dm'd aly\n","timestamp":"2017-12-05T05:12:17.379Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:14:53.974Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:14:53.976Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:14:54.825Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:14:57.941Z"}
+{"level":"info","message":"Oda.Satterfield43 is now aly","timestamp":"2017-12-05T05:14:57.942Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:15:00.284Z"}
+{"level":"info","message":"Processing data: @dm aly hey\r\n","timestamp":"2017-12-05T05:15:04.698Z"}
+{"level":"info","message":"Melvin.Rowe16 has dm'd aly\n","timestamp":"2017-12-05T05:15:04.699Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:15:19.188Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:15:19.189Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:15:20.207Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:15:21.161Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T05:15:26.262Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:15:32.317Z"}
+{"level":"info","message":"Kali_Hirthe2 is now aly","timestamp":"2017-12-05T05:15:32.317Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T05:15:33.624Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-05T05:15:37.711Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:15:41.322Z"}
+{"level":"info","message":"Rozella.Larson47 is now cameron","timestamp":"2017-12-05T05:15:41.322Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:15:47.278Z"}
+{"level":"info","message":"Processing data: hey all\r\n","timestamp":"2017-12-05T05:15:52.540Z"}
+{"level":"info","message":"Processing data: @dm cameron hey\r\n","timestamp":"2017-12-05T05:16:10.596Z"}
+{"level":"info","message":"aly has dm'd cameron\n","timestamp":"2017-12-05T05:16:10.597Z"}
+{"level":"info","message":"Processing data: @dm cameron hey whats up\r\n","timestamp":"2017-12-05T05:16:29.995Z"}
+{"level":"info","message":"aly has dm'd cameron\n","timestamp":"2017-12-05T05:16:29.995Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:20:40.084Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:20:40.086Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:20:44.159Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:20:45.747Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:20:47.382Z"}
+{"level":"info","message":"Processing data: hi\r\n","timestamp":"2017-12-05T05:20:49.994Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:20:55.490Z"}
+{"level":"info","message":"Bernardo_Brakus29 is now aly","timestamp":"2017-12-05T05:20:55.491Z"}
+{"level":"info","message":"Processing data: @nickname cameron\r\n","timestamp":"2017-12-05T05:21:00.145Z"}
+{"level":"info","message":"Abigale18 is now cameron","timestamp":"2017-12-05T05:21:00.145Z"}
+{"level":"info","message":"Processing data: hey all\r\n","timestamp":"2017-12-05T05:21:04.787Z"}
+{"level":"info","message":"Processing data: @dm cameron what up\r\n","timestamp":"2017-12-05T05:21:20.859Z"}
+{"level":"info","message":"aly has dm'd cameron\n","timestamp":"2017-12-05T05:21:20.859Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-05T05:21:52.133Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-05T05:21:52.134Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:21:57.104Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-05T05:21:58.104Z"}
+{"level":"info","message":"Processing data: @nickname aly\r\n","timestamp":"2017-12-05T05:22:03.131Z"}
+{"level":"info","message":"Alice.Dickens68 is now aly","timestamp":"2017-12-05T05:22:03.132Z"}
+{"level":"info","message":"Processing data: @dm aly hey there what's up?\r\n","timestamp":"2017-12-05T05:22:11.569Z"}
+{"level":"info","message":"Jalon_Zulauf has dm'd aly\n","timestamp":"2017-12-05T05:22:11.570Z"}

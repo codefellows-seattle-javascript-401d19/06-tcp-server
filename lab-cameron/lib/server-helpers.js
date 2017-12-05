@@ -15,6 +15,8 @@ const parseCommand = (socket, message, clients) => {
     const parsedCommand = message.input.split(' ');
     const commandWord = parsedCommand[0];
     const nickname = parsedCommand[1];
+    const recipient = parsedCommand[1];
+    const dmessage = parsedCommand.slice(2, parsedCommand.length).join(' ');
 
     switch (commandWord) {
     case '@list':
@@ -26,6 +28,9 @@ const parseCommand = (socket, message, clients) => {
     case '@nickname':
       changeNickname(socket, clients, nickname);
       break;
+    case '@dm':
+      directMessage(socket, clients, recipient, dmessage);
+      break;
     default:
       socket.write('Valid commands: @list\n');
       break;
@@ -36,7 +41,6 @@ const parseCommand = (socket, message, clients) => {
 };
 
 const removeClient = (socket, clients) => () => {
-  console.log('AAA');
   logger.log('info',`Removing ${socket.name}`);
 
   clients = clients.filter(client => {
@@ -101,6 +105,20 @@ const changeNickname = (socket, clients, nickname) => {
   }
 
   broadcast(socket, message, clients);
+};
+
+const directMessage = (socket, clients, recipient, dmessage) => {
+  logger.log('info', `${socket.name} has dm'd ${recipient}\n`);
+
+  for (let client of clients) {
+    if (client.name === recipient) {
+      client.write(`${socket.name}: ${dmessage}\n`);
+      return;
+    }
+    console.log(`client: ${client.name}, ${recipient}`);
+  }
+
+  socket.write(`${recipient} is not currently online\n`);
 };
 
 module.exports = {

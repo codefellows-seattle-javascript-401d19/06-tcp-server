@@ -2,21 +2,6 @@
 
 const server = module.exports = {};
 
-server.updateClients = updatedClients => {
-  clients = updatedClients;
-};
-
-server.start = (port, callback) => {
-  logger.log('info',`Server is up on port ${port}`);
-  console.log('info',`Server is up on port ${port}`);
-  return app.listen(port, callback);
-};
-
-server.stop = callback => {
-  logger.log('info',`Server is off`);
-  return app.close(callback);
-};
-
 const net = require('net');
 const faker = require('faker');
 
@@ -66,3 +51,18 @@ app.on('connection', socket => {
   socket.on('error', removeClient(socket, clients));
   socket.on('close', removeClient(socket, clients));
 });
+
+server.updateClients = updatedClients => {
+  clients = updatedClients;
+};
+
+server.start = (port, callback) => {
+  logger.log('info',`Server is up on port ${port}`);
+  console.log('info',`Server is up on port ${port}`);
+  return app.listen(port, callback);
+};
+
+server.stop = callback => {
+  logger.log('info',`Server is off`);
+  return app.close(callback);
+};
