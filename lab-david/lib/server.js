@@ -3,7 +3,6 @@
 const net = require('net');
 const winston = require('winston');
 const faker = require('faker');
-// ------------------------------------------------------
 let logger = new (winston.Logger)({
   transports: [
     new (winston.transports.File)({ filename: 'log.json' }),
@@ -11,13 +10,9 @@ let logger = new (winston.Logger)({
 });
 
 logger.log('info','Hello world!');
-// winston.level = 'debug';
-// winston.log('debug','Hello world!');
-// ------------------------------------------------------
 
 const app = net.createServer();
 let clients = [];
-// ------------------------------------------------------
 
 let parseCommand = (message,socket) =>{
   if(message.startsWith('@')){
@@ -25,7 +20,7 @@ let parseCommand = (message,socket) =>{
     let commandWord = parsedCommand[0];
 
     switch(commandWord){
-    case'@list':// vinicio - if(commandWord === '@list')
+    case'@list': // lists out all users who are in the room
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
     case'@quit': // allows a user to quit the chatroom 
@@ -55,7 +50,7 @@ let parseCommand = (message,socket) =>{
 app.on('connection', (socket) => {
   socket.name = faker.internet.userName();
   clients.push(socket);
-  logger.log('info', `Net socket`);// [object object]
+  logger.log('info', `Net socket`);
   socket.write('Welcome to 401d19 chatroom\n'); 
   socket.write(`Your name is ${socket.name}\n`);
 
@@ -68,7 +63,6 @@ app.on('connection', (socket) => {
       return;
 
     for(let client of clients){
-      //vinicio - instead of doing clients[client] I can use directly client
       if(client !== socket)
         client.write(`${socket.name}: ${message}\n`);
     }
