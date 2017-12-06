@@ -1,5 +1,7 @@
 'use strict';
 
+// TODO: rewrite using code from class as a base
+
 const net = require('net');
 const winston = require('winston');
 const faker = require('faker');
