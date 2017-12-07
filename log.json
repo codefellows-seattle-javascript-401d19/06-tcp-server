@@ -1,0 +1,56 @@
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:38:28.033Z"}
+{"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-07T03:38:28.034Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:40:20.269Z"}
+{"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-07T03:40:20.271Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:41:59.204Z"}
+{"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-07T03:41:59.206Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:42:55.489Z"}
+{"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-07T03:42:55.491Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:47:18.249Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:47:18.253Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:48:40.213Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:48:40.215Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:50:05.385Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:50:05.388Z"}
+{"level":"info","message":"Net socket","timestamp":"2017-12-07T03:50:43.357Z"}
+{"level":"info","message":"Processing data: GET / HTTP/1.1\r\nHost: 10.0.0.224:3000\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate\r\nAccept-Language: en-US,en;q=0.9\r\n\r\n","timestamp":"2017-12-07T03:50:43.359Z"}
+{"level":"info","message":"Removing Geovany_Bins21","timestamp":"2017-12-07T03:50:43.360Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:51:24.887Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:51:24.890Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:52:50.777Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:52:50.780Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:53:14.505Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:53:14.508Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:54:06.888Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:54:06.890Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:54:43.309Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:54:43.312Z"}
+{"level":"info","message":"Hello world!","timestamp":"2017-12-07T03:56:03.133Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T03:56:03.136Z"}
+{"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-07T03:58:13.091Z"}
+{"level":"info","message":"Server is up on port undefined","timestamp":"2017-12-07T03:59:26.220Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T04:03:50.835Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-07T04:04:04.493Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-07T04:04:04.494Z"}
+{"level":"info","message":"Processing data: GET / HTTP/1.1\r\nHost: telnet.localhost:3000\r\nConnection: keep-alive\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\r\nUpgrade-Insecure-Requests: 1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9\r\n\r\n","timestamp":"2017-12-07T04:04:04.496Z"}
+{"level":"info","message":"Removing Bertram.Batz94","timestamp":"2017-12-07T04:04:04.500Z"}
+{"level":"info","message":"Processing data: GET / HTTP/1.1\r\nHost: telnet.localhost:3000\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9\r\n\r\n","timestamp":"2017-12-07T04:04:04.833Z"}
+{"level":"info","message":"Removing Katharina.Flatley","timestamp":"2017-12-07T04:04:04.834Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-07T04:04:09.850Z"}
+{"level":"info","message":"Processing data: GET / HTTP/1.1\r\nHost: telnet.localhost:3000\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9\r\n\r\n","timestamp":"2017-12-07T04:04:09.851Z"}
+{"level":"info","message":"Removing Emerald.Wuckert","timestamp":"2017-12-07T04:04:09.851Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-07T04:04:39.867Z"}
+{"level":"info","message":"Processing data: GET / HTTP/1.1\r\nHost: telnet.localhost:3000\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9\r\n\r\n","timestamp":"2017-12-07T04:04:39.867Z"}
+{"level":"info","message":"Removing Zoey.Nikolaus","timestamp":"2017-12-07T04:04:39.868Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-07T04:05:39.882Z"}
+{"level":"info","message":"Processing data: GET / HTTP/1.1\r\nHost: telnet.localhost:3000\r\nConnection: keep-alive\r\nCache-Control: max-age=0\r\nUpgrade-Insecure-Requests: 1\r\nUser-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en-US,en;q=0.9\r\n\r\n","timestamp":"2017-12-07T04:05:39.882Z"}
+{"level":"info","message":"Removing Johnpaul12","timestamp":"2017-12-07T04:05:39.882Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-07T04:06:24.347Z"}
+{"level":"info","message":"Processing data: yo\r\n","timestamp":"2017-12-07T04:06:29.820Z"}
+{"level":"info","message":"Server is up on port 3000","timestamp":"2017-12-07T04:06:48.940Z"}
+{"level":"info","message":"New socket","timestamp":"2017-12-07T04:07:22.147Z"}
+{"level":"info","message":"Processing data: @list\r\n","timestamp":"2017-12-07T04:07:31.293Z"}
+{"level":"info","message":"Processing data: @name Dman\r\n","timestamp":"2017-12-07T04:07:43.589Z"}
+{"level":"info","message":"Processing data: hello\r\n","timestamp":"2017-12-07T04:07:48.990Z"}
+{"level":"info","message":"Processing data: @quit\r\n","timestamp":"2017-12-07T04:08:01.206Z"}
+{"level":"info","message":"Removing Dman","timestamp":"2017-12-07T04:08:01.211Z"}
