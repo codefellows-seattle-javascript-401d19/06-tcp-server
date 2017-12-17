@@ -20,23 +20,23 @@ let parseCommand = (message, socket) =>{
     let commandWord = parsedCommand[0];
 
     switch(commandWord){
-    case'@list': 
+    case '@list': 
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
-    case'@quit': 
+    case '@quit': 
       socket.write(`goodbye ${socket.name}..` + '\n');
       removeClient(`${socket.name}`);
       break;
-    case'@nickname': 
+    case '@nickname': 
       var parsedName = parsedCommand[1];
       socket.name = parsedName;
       socket.write(`your username has been updated to ${socket.name}\n`);
       break;  
-    case'@dm': 
+    case '@dm': 
       var dmRecipient = parsedCommand[1];
       var dmMessage = parsedCommand[2];
       socket.write(dmMessage);
-    
+      break;
     default:
       socket.write('Valid commands: \n @list\n @quit (not working yet)\n @nickname <new-name>\n @dm <to-username> <message>');
       break;
