@@ -12,5 +12,9 @@
   "devDependencies": {
     "eslint": "^4.12.1",
     "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
   }
 }
