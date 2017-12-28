@@ -187,3 +187,8 @@
 {"level":"info","message":"hello world","timestamp":"2017-12-05T17:09:57.990Z"}
 {"level":"info","message":"hello world","timestamp":"2017-12-05T17:09:58.221Z"}
 {"level":"info","message":"server is up","timestamp":"2017-12-05T17:09:58.222Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-28T08:06:21.161Z"}
+{"level":"info","message":"hello world","timestamp":"2017-12-28T08:06:21.354Z"}
+{"level":"info","message":"server is up","timestamp":"2017-12-28T08:06:21.354Z"}
+{"level":"info","message":"Processing data :@quit\r\n","timestamp":"2017-12-28T08:06:34.450Z"}
+{"level":"info","message":"Removing Fanny.Borer","timestamp":"2017-12-28T08:06:34.461Z"}

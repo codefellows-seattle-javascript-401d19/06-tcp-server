@@ -12,7 +12,6 @@ var logger = new (winston.Logger)({
 
   ],
 });
-// winston.log('debug', 'debugger');
 logger.log('info', 'hello world');
 //-------------------------------------------------------
 const app = net.createServer();
@@ -20,32 +19,32 @@ let clients =[];
 //-----------------------------------------------
 let parseCommand = (message, socket) => {
   if(message.startsWith('@')){
-    let parsedCommand = message.split(' ');
-    let commandWord = parsedCommand[0];
-    let inputWord = parsedCommand[1];
-    let inputMessage = parsedCommand.slice(2, parsedCommand.length).join(' ');
+    let input = message.split(' ');
+    let command = input[0];
+    let descriptor = input[1];
+    let inputMessage = input.slice(2, input.length).join(' ');
 
-    switch(commandWord){
-    case'@list': //like if(commandword === '@list'){}
+    switch(command){
+    case'@list':
       socket.write(clients.map(client => client.name).join('\n') + '\n');
       break;
-    case'@quit': //doesnt close telnet
+    case'@quit':
       clients = clients.filter((client) => {
         return client !== socket;
       });
-      socket.write('see ya later alligator\n');
+      socket.end('see ya later alligator\n');
       break;
     case'@nickname':
       clients.map(client => {
         if(client === socket){
-          client.name = inputWord;
+          client.name = descriptor;
         }
-        socket.write(`your nickname is now ${inputWord}`);
+        socket.write(`your nickname is now ${descriptor}`);
       } );
       break;
     case'@dm':
       for( let client of clients){
-        if(client.name === inputWord){
+        if(client.name === descriptor){
           client.write(`${socket.name}: ${inputMessage}\n`);
         }
       }
