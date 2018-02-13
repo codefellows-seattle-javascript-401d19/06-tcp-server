@@ -15,3 +15,15 @@
 {"level":"info","message":"Processing data :hello\r\n","timestamp":"2018-02-13T00:54:41.736Z"}
 {"level":"info","message":"Processing data :hi dude sup\r\n","timestamp":"2018-02-13T00:54:47.114Z"}
 {"level":"info","message":"Processing data :@join macho\r\n","timestamp":"2018-02-13T00:54:59.637Z"}
+{"level":"info","message":"hello world","timestamp":"2018-02-13T00:57:48.915Z"}
+{"level":"info","message":"hello world","timestamp":"2018-02-13T00:57:49.106Z"}
+{"level":"info","message":"server is up","timestamp":"2018-02-13T00:57:49.106Z"}
+{"level":"info","message":"Processing data :@join macho\r\n","timestamp":"2018-02-13T00:57:59.446Z"}
+{"level":"info","message":"Processing data :@join macho\r\n","timestamp":"2018-02-13T00:58:11.106Z"}
+{"level":"info","message":"Processing data :hello\r\n","timestamp":"2018-02-13T00:58:13.530Z"}
+{"level":"info","message":"Processing data :hello\r\n","timestamp":"2018-02-13T00:58:17.847Z"}
+{"level":"info","message":"Processing data :hi dude\r\n","timestamp":"2018-02-13T00:58:23.993Z"}
+{"level":"info","message":"hello world","timestamp":"2018-02-13T01:04:15.530Z"}
+{"level":"info","message":"hello world","timestamp":"2018-02-13T01:04:15.721Z"}
+{"level":"info","message":"server is up","timestamp":"2018-02-13T01:04:15.721Z"}
+{"level":"info","message":"Processing data :@join macho\r\n","timestamp":"2018-02-13T01:04:41.130Z"}

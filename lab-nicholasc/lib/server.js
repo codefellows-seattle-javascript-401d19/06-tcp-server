@@ -35,15 +35,26 @@ let parseCommand = (message, socket) => {
         clients[socket.currentServer] = clients[socket.currentServer].filter((client) => {
           return client !== socket;
         });
+        for( let client of clients[socket.currentServer]){
+          client.write(`${socket.name}: has left ${socket.currentServer}\n`);
+        }
         clients[descriptor].push(socket);
         socket.currentServer = descriptor;
+        for( let client of clients[socket.currentServer]){
+          if(client !== socket){
+            client.write(`${socket.name}: has joined ${socket.currentServer}\n`);
+          }
+        }
         break;
+
       } else {
         clients[descriptor] = [];
         clients[socket.currentServer] = clients[socket.currentServer].filter((client) => {
           return client !== socket;
         });
-        socket.write(`the server "${descriptor} does not exist yet`);
+        clients[descriptor].push(socket);
+        socket.currentServer = descriptor;
+        socket.write(`the server "${descriptor} has been created and joined \n`);
         break;
       }
     case'@quit':
