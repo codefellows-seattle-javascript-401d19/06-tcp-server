@@ -30,6 +30,9 @@ let parseCommand = (message, socket) => {
     case'@list':
       socket.write(clients[socket.currentServer].map(client => client.name).join('\n') + '\n');
       break;
+    case'@admin':
+
+      break;
     case'@join':
       if(clients[descriptor]){
         clients[socket.currentServer] = clients[socket.currentServer].filter((client) => {
