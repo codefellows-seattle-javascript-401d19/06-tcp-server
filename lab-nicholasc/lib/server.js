@@ -15,7 +15,9 @@ var logger = new (winston.Logger)({
 logger.log('info', 'hello world');
 //-------------------------------------------------------
 const app = net.createServer();
-let clients =[];
+let clients ={
+  home: [],
+};
 //-----------------------------------------------
 let parseCommand = (message, socket) => {
   if(message.startsWith('@')){
@@ -26,16 +28,32 @@ let parseCommand = (message, socket) => {
 
     switch(command){
     case'@list':
-      socket.write(clients.map(client => client.name).join('\n') + '\n');
+      socket.write(clients[socket.currentServer].map(client => client.name).join('\n') + '\n');
       break;
+    case'@join':
+      if(clients[descriptor]){
+        clients[socket.currentServer] = clients[socket.currentServer].filter((client) => {
+          return client !== socket;
+        });
+        clients[descriptor].push(socket);
+        socket.currentServer = descriptor;
+        break;
+      } else {
+        clients[descriptor] = [];
+        clients[socket.currentServer] = clients[socket.currentServer].filter((client) => {
+          return client !== socket;
+        });
+        socket.write(`the server "${descriptor} does not exist yet`);
+        break;
+      }
     case'@quit':
-      clients = clients.filter((client) => {
+      clients[socket.currentServer] = clients[socket.currentServer].filter((client) => {
         return client !== socket;
       });
       socket.end('see ya later alligator\n');
       break;
     case'@nickname':
-      clients.map(client => {
+      clients[socket.currentServer].map(client => {
         if(client === socket){
           client.name = descriptor;
         }
@@ -43,7 +61,7 @@ let parseCommand = (message, socket) => {
       } );
       break;
     case'@dm':
-      for( let client of clients){
+      for( let client of clients[socket.currentServer]){
         if(client.name === descriptor){
           client.write(`${socket.name}: ${inputMessage}\n`);
         }
@@ -52,27 +70,31 @@ let parseCommand = (message, socket) => {
     default:
       socket.write(socket);
 
-      socket.write('valid commands: @list, @dm, @nickname, @quit');
+      socket.write('valid commands: @list, @dm, @nickname, @quit, @join');
     }
   }
 };
 //---------------------------------------------------------
 app.on('connection', (socket) => {
+  socket.currentServer = 'home';
+
   socket.name = faker.internet.userName();
-  clients.push(socket);
+  clients.home.push(socket);
   socket.write('welcome to 401d19 chatroom\n');
   socket.write(`Your name is ${socket.name}\n`);
 
   socket.on('data', (data) => {
     logger.log('info', `Processing data :${data}`);
     let message = data.toString().trim();
+
     if(parseCommand(message, socket))
       return;
 
     if(message.startsWith('@')){
       return;
     }
-    for( let client of clients){
+
+    for( let client of clients[socket.currentServer]){
       if(client !== socket){
         client.write(`${socket.name}: ${message}\n`);
       }
@@ -80,7 +102,8 @@ app.on('connection', (socket) => {
   });
   let removeClient = (socket) => () => {
     logger.log('info', `Removing ${socket.name}`);
-    clients = clients.filter((client) => {
+
+    clients[socket.currentServer] = clients[socket.currentServer].filter((client) => {
       return client !== socket;
     });
   };
