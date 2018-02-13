@@ -41,10 +41,9 @@ let parseCommand = (message, socket) => {
         clients[descriptor].push(socket);
         socket.currentServer = descriptor;
         for( let client of clients[socket.currentServer]){
-          if(client !== socket){
-            client.write(`${socket.name}: has joined ${socket.currentServer}\n`);
-          }
+          if(client !== socket) client.write(`${socket.name}: has joined ${socket.currentServer}\n`);
         }
+        socket.write(`you have joined ${socket.currentServer} \n`);
         break;
 
       } else {
@@ -68,7 +67,7 @@ let parseCommand = (message, socket) => {
         if(client === socket){
           client.name = descriptor;
         }
-        socket.write(`your nickname is now ${descriptor}`);
+        socket.write(`your nickname is now ${descriptor} \n`);
       } );
       break;
     case'@dm':
