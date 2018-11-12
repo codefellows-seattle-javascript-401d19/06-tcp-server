@@ -1,0 +1,40 @@
+{
+  "name": "lab-catherine",
+  "version": "1.0.0",
+  "description": "Code 401 Lab 06 Chat Server ",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest -i --coverage",
+    "lint": "estlint .",
+    "start": "node index.js",
+    "connect": "telnet 127.0.0.1 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccloops/06-tcp-server.git"
+  },
+  "keywords": [
+    "server",
+    "node",
+    "jest",
+    "winston"
+  ],
+  "author": "Catherine Looper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccloops/06-tcp-server/issues"
+  },
+  "homepage": "https://github.com/ccloops/06-tcp-server#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "jest": "^21.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "winston": "^2.4.0"
+  }
+}
