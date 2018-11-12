@@ -106,8 +106,10 @@ app.on('connection', (socket) => {
     logger.log('info', `Processing data: ${data}`);
     let message = data.toString().trim();
 
-    if(parseCommand(message,socket))
+    if(parseCommand(message,socket)) {
+      console.log(parseCommand(message,socket));
       return;
+    }
 
     for(let client of clients){
       if(client.socket !== socket)
